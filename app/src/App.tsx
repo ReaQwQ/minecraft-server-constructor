@@ -37,7 +37,7 @@ interface SpigotPlugin { id: number; name: string; tag: string; icon?: { url: st
  * @return アプリケーション全体のUI構造
  */
 function App() {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   const { success, error, info } = useNotification();
   const [activeTab, setActiveTab] = useState("deploy");
   const [theme, setTheme] = useState("system");

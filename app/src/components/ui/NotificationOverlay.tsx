@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { X, CheckCircle2, AlertCircle, Info, AlertTriangle } from "lucide-react";
-import { useNotificationStore, NotificationType } from "../../store/notificationStore";
+import { useNotificationStore } from "../../store/notificationStore";
 
 const icons = {
   success: <CheckCircle2 className="w-5 h-5 text-green-500" />,

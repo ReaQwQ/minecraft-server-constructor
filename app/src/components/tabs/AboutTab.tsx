@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { Info, Github, User, Shield, ExternalLink } from "lucide-react";
+import { Github, User, Shield, ExternalLink } from "lucide-react";
 import logoSvg from "../../assets/logo.svg";
+import { cn } from "../../lib/utils";
 
 const pageVariants = {
   initial: { opacity: 0, scale: 0.98 },
