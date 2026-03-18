@@ -391,6 +391,7 @@ function App() {
                   spigotPlugins={spigotPlugins}
                   pluginPage={pluginPage}
                   setPluginPage={setPluginPage}
+                  outputDir={outputDir}
                 />
               )}
               {activeTab === "security" && <SecurityTab key="security" />}

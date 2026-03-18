@@ -18,8 +18,7 @@ pub struct SpigotPlugin {
     pub id: u32,
     pub name: String,
     pub tag: String,
-    #[serde(rename = "icon")]
-    pub icon_data: Option<SpigotIcon>,
+    pub icon: Option<SpigotIcon>,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]

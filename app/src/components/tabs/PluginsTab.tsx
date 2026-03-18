@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { Box, Loader2, ExternalLink, ChevronLeft, ChevronRight } from "lucide-react";
+import { Box, Loader2, ExternalLink, ChevronLeft, ChevronRight, Check } from "lucide-react";
 import { Button } from "../ui/Button";
+import { invoke } from "@tauri-apps/api/core";
+import { useNotification } from "../../store/notificationStore";
 
 interface SpigotPlugin {
   id: number;
@@ -15,6 +18,7 @@ interface PluginsTabProps {
   spigotPlugins: SpigotPlugin[];
   pluginPage: number;
   setPluginPage: (page: number | ((p: number) => number)) => void;
+  outputDir: string;
 }
 
 const pageVariants = {
@@ -29,16 +33,39 @@ const pageVariants = {
  * @param spigotPlugins プラグインデータのリスト
  * @param pluginPage 現在のページ番号
  * @param setPluginPage ページ更新関数
- * @requires framer-motion, react-i18next, lucide-react
+ * @param outputDir 現在のデプロイ出力先
+ * @requires framer-motion, react-i18next, lucide-react, tauri-apps/api/core
  * @return プラグインタブのコンポーネント
  */
 export function PluginsTab({
   isLoadingPlugins,
   spigotPlugins,
   pluginPage,
-  setPluginPage
+  setPluginPage,
+  outputDir
 }: PluginsTabProps) {
   const { t } = useTranslation();
+  const { success, error } = useNotification();
+  const [installingId, setInstallingId] = useState<number | null>(null);
+  const [installedIds, setInstalledIds] = useState<number[]>([]);
+
+  const handleInstall = async (plugin: SpigotPlugin) => {
+    setInstallingId(plugin.id);
+    try {
+      await invoke("install_plugin", { 
+        id: plugin.id, 
+        name: plugin.name, 
+        outputDir: outputDir 
+      });
+      success(t("plugins.install_success", { name: plugin.name }), t("common.success"));
+      setInstalledIds(prev => [...prev, plugin.id]);
+    } catch (e) {
+      error(String(e), t("common.error"));
+    } finally {
+      setInstallingId(null);
+    }
+  };
+
   return (
     <motion.div 
       key="plugins" 
@@ -69,8 +96,8 @@ export function PluginsTab({
               className="glass p-6 rounded-3xl border border-app flex flex-col justify-between hover:border-blue-600/30 transition-all text-app group"
             >
               <div className="flex gap-4">
-                {p.icon ? (
-                  <img src={p.icon.url} className="w-12 h-12 rounded-xl" alt={p.name} />
+                {p.icon?.url ? (
+                  <img src={p.icon.url} className="w-12 h-12 rounded-xl object-cover bg-white/10" alt={p.name} />
                 ) : (
                   <div className="w-12 h-12 rounded-xl bg-blue-600/10 flex items-center justify-center text-blue-600">
                     <Box className="w-6 h-6" />
@@ -82,11 +109,28 @@ export function PluginsTab({
                 </div>
               </div>
               <div className="mt-6 flex items-center justify-between border-t border-app pt-4 text-app">
-                <Button variant="ghost" size="sm" className="opacity-40 hover:opacity-100 text-[10px] p-0 h-auto text-app">
-                  <ExternalLink className="w-3 h-3 mr-1" /> {t("common.view")}
-                </Button>
-                <Button variant="secondary" size="sm" className="text-[10px] h-8 rounded-xl font-black text-app">
-                  {t("common.install")}
+                <a 
+                  href={`https://www.spigotmc.org/resources/${p.id}`} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 opacity-40 hover:opacity-100 text-[10px] font-bold transition-opacity"
+                >
+                  <ExternalLink className="w-3 h-3" /> {t("common.view")}
+                </a>
+                <Button 
+                  variant={installedIds.includes(p.id) ? "primary" : "secondary"} 
+                  size="sm" 
+                  disabled={installingId === p.id}
+                  onClick={() => handleInstall(p)}
+                  className="text-[10px] h-8 rounded-xl font-black text-app min-w-[80px]"
+                >
+                  {installingId === p.id ? (
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                  ) : installedIds.includes(p.id) ? (
+                    <><Check className="w-3.5 h-3.5 mr-1" /> {t("common.installed")}</>
+                  ) : (
+                    t("common.install")
+                  )}
                 </Button>
               </div>
             </div>

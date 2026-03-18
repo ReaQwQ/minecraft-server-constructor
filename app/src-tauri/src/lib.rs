@@ -2,7 +2,7 @@ mod commands;
 
 use commands::{
     deploy::deploy_cluster,
-    fetch::{get_versions, get_builds, get_protocol_list, list_spigot_plugins},
+    fetch::{get_versions, get_builds, get_protocol_list, list_spigot_plugins, install_plugin},
     system::get_system_stats,
     template::{export_template, import_template, get_official_template},
     browse::{list_generated_folders, list_files_in_folder},
@@ -28,6 +28,7 @@ pub fn run() {
             get_builds, 
             get_protocol_list, 
             list_spigot_plugins, 
+            install_plugin,
             
             // System commands
             get_system_stats, 

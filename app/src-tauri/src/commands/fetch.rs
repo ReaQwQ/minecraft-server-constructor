@@ -51,3 +51,32 @@ pub async fn list_spigot_plugins(page: u32, size: u32) -> Result<Vec<SpigotPlugi
     let fetcher = PluginFetcher::with_context(ctx);
     fetcher.list_spigot_plugins(page, size).await.map_err(|e| e.to_string())
 }
+
+/**
+ * 説明: SpigotMCから特定のプラグインをダウンロードして指定フォルダに保存する
+ * @param id プラグインID
+ * @param name プラグイン名（ファイル名に使用）
+ * @param output_dir 保存先ディレクトリ
+ * @return 成功メッセージまたはエラー
+ */
+#[tauri::command]
+pub async fn install_plugin(id: u32, name: String, output_dir: String) -> Result<String, String> {
+    let ctx = FetcherContext::new();
+    let fetcher = PluginFetcher::with_context(ctx);
+    
+    let download_url = format!("https://api.spiget.org/v2/resources/{}/download", id);
+    let target_dir = if output_dir.is_empty() {
+        std::env::current_dir().unwrap().join("plugins")
+    } else {
+        std::path::PathBuf::from(output_dir).join("plugins")
+    };
+
+    if !target_dir.exists() {
+        std::fs::create_dir_all(&target_dir).map_err(|e| e.to_string())?;
+    }
+
+    let file_path = target_dir.join(format!("{}.jar", name.replace(' ', "_")));
+    fetcher.download_jar(&download_url, &file_path).await.map_err(|e| e.to_string())?;
+
+    Ok(format!("Installed {} to {}", name, file_path.display()))
+}

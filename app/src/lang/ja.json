@@ -9,15 +9,12 @@
     "deploying": "デプロイ中...",
     "success": "成功",
     "error": "エラー",
-    "cancel": "キャンセル",
-    "confirm": "確定",
-    "loading": "読み込み中...",
-    "none": "なし",
-    "view": "表示",
+    "confirm": "確認",
+    "output_dir": "出力先",
     "install": "インストール",
-    "page": "{{page}} ページ",
-    "output_dir": "出力先ディレクトリ",
-    "set_output_dir": "出力先設定"
+    "installed": "導入済み",
+    "view": "表示",
+    "page": "ページ {{page}}"
   },
   "sidebar": {
     "dashboard": "ダッシュボード",
@@ -27,9 +24,9 @@
     "security": "セキュリティ",
     "settings": "設定",
     "about": "このアプリについて",
+    "orchestrator": "オーケストレーター",
     "theme": "テーマ",
-    "language": "言語",
-    "orchestrator": "オーケストレーター"
+    "language": "言語"
   },
   "header": {
     "title": "MSB コンソール",
@@ -40,90 +37,62 @@
     "deploying_btn": "デプロイ中..."
   },
   "dashboard": {
-    "cpu_usage": "CPU使用率",
+    "cpu_usage": "CPU 使用率",
     "cpu_sub": "システム全体",
-    "memory_used": "使用メモリ",
-    "memory_total": "合計: {{total}}",
+    "mem_used": "使用メモリ",
+    "memory_total": "合計: {{total}} GB",
     "deployments": "デプロイ数",
-    "deployments_sub": "生成済みフォルダ内",
+    "deployments_sub": "生成フォルダ内",
     "realtime_monitoring": "リアルタイムモニタリング"
   },
   "deploy": {
-    "official_templates": "公式テンプレート",
-    "templates": {
-      "lobby": "ロビー / ハブ",
-      "survival": "バニラサバイバル",
-      "modded": "MODクラスター"
-    },
-    "sections": {
-      "core": "1. コアエンジン設定",
-      "resource": "2. リソース ＆ ネットワーク",
-      "orchestration": "3. オーケストレーション機能"
-    },
-    "engine": "サーバーエンジン",
-    "engine_types": {
-      "purpur": "Purpur (最適化済み)",
-      "paper": "PaperMC (標準)",
-      "folia": "Folia (マルチスレッド)",
-      "arclight": "Arclight (ハイブリッド)",
-      "fabric": "Fabric (MOD用)",
-      "vanilla": "Vanilla (公式)",
-      "bds": "Bedrock (公式BDS)"
-    },
-    "proxy_type": "プロキシ種別",
-    "proxy_types": {
-      "velocity": "Velocity (推奨)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "無し (直接接続)"
-    },
-    "proxy_ver": "プロキシ Ver",
-    "proxy_build": "プロキシビルド",
-    "memory_alloc": "メモリ割り当て",
-    "memory_unit": "MB",
-    "protocol_range": "プロトコル範囲 (ViaVersion)",
-    "multi_protocol": "マルチプロトコル有効化",
-    "features": {
-      "jdk": { "label": "JDK自動導入", "sub": "最適なJavaを隔離導入" },
-      "bedrock": { "label": "統合版対応", "sub": "Geyser/Floodgate自動連携" },
-      "discord": { "label": "Discord連携", "sub": "DiscordSRVを自動導入" },
-      "sonar": { "label": "Sonar (アンチボット)", "sub": "プロキシ保護を強化" },
-      "limbo": { "label": "NanoLimboを導入", "sub": "待機用軽量サーバー" },
-      "mem": { "label": "メモリ自動配分", "sub": "Aikar's Flags最適化" },
-      "eula": { "label": "EULAに同意", "sub": "Minecraft EULAに同意" }
-    },
     "alerts": {
       "template_applied": "{{name}} テンプレートを適用しました。",
       "export_success": "テンプレートをエクスポートしました。",
       "import_success": "テンプレートをインポートしました。",
+      "select_output": "出力先フォルダを選択",
       "deploy_success": "デプロイ完了！\n場所: {{path}}",
-      "deploy_error": "エラー: {{error}}",
-      "select_output": "出力先ディレクトリを選択してください"
+      "deploy_error": "エラー: {{error}}"
     }
   },
-  "browse": {
-    "title": "成果物ブラウザ",
-    "back_to_list": "フォルダ一覧に戻る",
-    "no_folders": "生成済みのサーバーはありません。",
-    "created_at": "作成日時"
-  },
   "plugins": {
-    "title": "プラグインマーケットプレイス",
-    "subtitle": "SpigotMCから動的に取得中。",
-    "fetching": "取得中..."
+    "title": "プラグイン・マーケット",
+    "subtitle": "SpigotMC から 100,000 以上のプラグインを直接サーバーへ導入できます。",
+    "fetching": "プラグインを取得中...",
+    "install_success": "{{name}} を正常にインストールしました。"
+  },
+  "security": {
+    "title": "セキュリティ ＆ ファイアウォール",
+    "ssh_access": "SSH ＆ アクセス制御",
+    "ssh_key": "SSH公開鍵認証を強制",
+    "root_login": "rootログインを禁止",
+    "password_auth": "パスワード認証を無効化",
+    "firewall": "ファイアウォール",
+    "backend_block": "Backendへの直接接続を遮断",
+    "proxy_only": "プロキシポート以外を閉鎖"
+  },
+  "settings": {
+    "title": "アプリケーション設定",
+    "auto_cleanup": "フォルダの自動クリーンアップ",
+    "auto_cleanup_sub": "デプロイ失敗時に残骸を自動で削除します。",
+    "output_platform": "デフォルト出力プラットフォーム",
+    "output_platform_sub": "標準のOSを選択します。",
+    "danger_zone": "危険地帯",
+    "danger_zone_sub": "全データをリセットします。",
+    "reset_btn": "全リセット"
   },
   "about": {
     "description": "Minecraft Server Constructor",
     "version": "バージョン {{version}}",
     "build": "ビルド {{build}}",
-    "author_title": "作成者",
-    "author_sub": "リードアーキテクト & UIデザイナー",
-    "source_title": "ソースコード",
-    "source_repo": "GitHub リポジトリ",
-    "built_with": "情熱と Rust と React で構築"
+    "author_title": "作成者 / Author",
+    "author_sub": "Lead Architect & UI Designer",
+    "source_title": "ソースコード / Source",
+    "source_repo": "GitHub Repository",
+    "built_with": "Built with Passion & Rust & React"
   },
   "license": {
-    "title": "ライセンス",
+    "title": "ライセンス / License",
     "name": "MSB Attribution License (Modified MIT)",
     "p1": "本ソフトウェアは、自由に使用・改変・配布することが可能ですが、以下の条件を遵守してください：",
     "items": [
@@ -135,25 +104,5 @@
       "open_source": "オープンソース",
       "fork_friendly": "フォーク歓迎"
     }
-  },
-  "security": {
-    "title": "セキュリティ ＆ ファイアウォール",
-    "ssh_access": "SSH ＆ アクセス制御",
-    "firewall": "ファイアウォール",
-    "ssh_key": "SSH公開鍵認証を強制",
-    "root_login": "rootログインを禁止",
-    "password_auth": "パスワード認証を無効化",
-    "backend_block": "Backendへの直接接続を遮断",
-    "proxy_only": "プロキシポート以外を閉鎖"
-  },
-  "settings": {
-    "title": "アプリケーション設定",
-    "auto_cleanup": "生成フォルダの自動クリーンアップ",
-    "auto_cleanup_sub": "デプロイ失敗時に残骸を自動で削除します。",
-    "output_platform": "デフォルト出力プラットフォーム",
-    "output_platform_sub": "標準のOSを選択します。",
-    "danger_zone": "危険地帯",
-    "danger_zone_sub": "全データをリセットします。",
-    "reset_btn": "全リセット"
   }
 }

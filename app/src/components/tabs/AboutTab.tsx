@@ -10,12 +10,17 @@ const pageVariants = {
   exit: { opacity: 0, scale: 1.02 }
 };
 
+/**
+ * 説明: アプリケーションの基本情報、作者、ライセンスを表示するタブ
+ * @requires framer-motion, react-i18next, lucide-react
+ * @return Aboutタブのコンポーネント
+ */
 export function AboutTab() {
   const { t } = useTranslation();
   
   const appVersion = "1.0.0";
   const buildVersion = "20260319.1";
-  const author = "MSB Project Team & Rea";
+  const author = "ReaQwQ";
   const licenseItems = t('license.items', { returnObjects: true }) as string[];
 
   return (
@@ -27,6 +32,7 @@ export function AboutTab() {
       exit="exit" 
       className="max-w-4xl mx-auto space-y-12 pb-32 text-app"
     >
+      {/* Brand Header */}
       <section className="flex flex-col items-center text-center space-y-6 pt-10">
         <motion.div 
           whileHover={{ rotate: 5, scale: 1.05 }}
@@ -44,6 +50,7 @@ export function AboutTab() {
         </div>
       </section>
 
+      {/* Info Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <section className="glass p-8 rounded-[2rem] space-y-4">
           <div className="flex items-center gap-3 text-blue-600">
@@ -63,13 +70,14 @@ export function AboutTab() {
           </div>
           <div className="space-y-1">
             <p className="text-lg font-bold">{t("about.source_repo")}</p>
-            <a href="#" className="text-xs text-blue-500 hover:underline flex items-center gap-1">
-              github.com/rea/msb <ExternalLink className="w-3 h-3" />
+            <a href="https://github.com/ReaQwQ/minecraft-server-constructor" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-500 hover:underline flex items-center gap-1">
+              github.com/ReaQwQ/minecraft-server-constructor <ExternalLink className="w-3 h-3" />
             </a>
           </div>
         </section>
       </div>
 
+      {/* License Section */}
       <section className="glass p-10 rounded-[2.5rem] space-y-6">
         <div className="flex items-center gap-3 text-blue-600">
           <Shield className="w-5 h-5" />
@@ -96,10 +104,10 @@ export function AboutTab() {
         </div>
       </section>
 
+      {/* Credits */}
       <section className="text-center opacity-30 py-10">
         <p className="text-[10px] font-black uppercase tracking-[0.4em]">{t("about.built_with")}</p>
       </section>
     </motion.div>
   );
 }
-
