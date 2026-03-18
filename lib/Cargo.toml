@@ -1,0 +1,20 @@
+[package]
+name = "msb-core"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.12", features = ["json", "stream", "rustls-tls", "gzip", "brotli", "deflate"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+anyhow = "1.0"
+async-trait = "0.1"
+rand = "0.8"
+zip = "0.6"
+futures-util = "0.3"
+sysinfo = "0.30"
+chrono = "0.4"
+bincode = "1.3" # 💡 独自バイナリフォーマット用
+base64 = "0.21" # 💡 テンプレートのポータビリティ用

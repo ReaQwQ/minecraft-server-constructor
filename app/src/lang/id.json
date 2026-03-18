@@ -1,0 +1,140 @@
+{
+  "common": {
+    "latest": "Latest",
+    "load": "Load",
+    "save": "Save",
+    "version": "Version",
+    "build": "Build",
+    "deploy": "Deploy",
+    "deploying": "Deploying...",
+    "success": "Success",
+    "error": "Error",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "none": "None",
+    "view": "View",
+    "install": "INSTALL",
+    "page": "PAGE {{page}}",
+    "output_dir": "Output Directory",
+    "set_output_dir": "Set Output Dir"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "deploy": "Deploy",
+    "browse": "Output Browser",
+    "plugins": "Plugins",
+    "security": "Security",
+    "settings": "Settings",
+    "about": "About",
+    "theme": "Theme",
+    "language": "Language",
+    "orchestrator": "Orchestrator"
+  },
+  "header": {
+    "title": "MSB Console",
+    "import": "Load",
+    "export": "Save",
+    "output_dir_btn": "Set Output Dir",
+    "deploy_btn": "Deploy",
+    "deploying_btn": "Deploying..."
+  },
+  "dashboard": {
+    "cpu_usage": "CPU Usage",
+    "cpu_sub": "System Global",
+    "memory_used": "Memory used",
+    "memory_total": "Total: {{total}}",
+    "deployments": "Deployments",
+    "deployments_sub": "in generated folder",
+    "realtime_monitoring": "Real-time Monitoring"
+  },
+  "deploy": {
+    "official_templates": "OFFICIAL TEMPLATES",
+    "templates": {
+      "lobby": "Lobby / Hub",
+      "survival": "Vanilla Survival",
+      "modded": "Modded Cluster"
+    },
+    "sections": {
+      "core": "1. Core Engine Settings",
+      "resource": "2. Resource & Network",
+      "orchestration": "3. Orchestration Features"
+    },
+    "engine": "Server Engine",
+    "engine_types": {
+      "purpur": "Purpur (Optimized)",
+      "paper": "PaperMC (Standard)",
+      "folia": "Folia (Multi-threaded)",
+      "arclight": "Arclight (Hybrid)",
+      "fabric": "Fabric (for Mods)",
+      "vanilla": "Vanilla (Official)",
+      "bds": "Bedrock (Official BDS)"
+    },
+    "proxy_type": "Proxy Type",
+    "proxy_types": {
+      "velocity": "Velocity (Recommended)",
+      "waterfall": "Waterfall",
+      "bungeecord": "Bungeecord",
+      "none": "None (Direct Connection)"
+    },
+    "proxy_ver": "Proxy Ver",
+    "proxy_build": "Proxy Build",
+    "memory_alloc": "Memory Allocation",
+    "memory_unit": "MB",
+    "protocol_range": "Protocol Range (ViaVersion)",
+    "multi_protocol": "MULTI",
+    "features": {
+      "jdk": { "label": "Auto JDK", "sub": "Optimal Java isolated installation" },
+      "bedrock": { "label": "Bedrock Support", "sub": "Geyser/Floodgate auto-link" },
+      "discord": { "label": "Discord Integration", "sub": "Auto-install DiscordSRV" },
+      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Strengthen proxy protection" },
+      "limbo": { "label": "Install NanoLimbo", "sub": "Lightweight waiting server" },
+      "mem": { "label": "Auto Memory Allocation", "sub": "Aikar's Flags optimization" },
+      "eula": { "label": "Accept EULA", "sub": "Agree to Minecraft EULA" }
+    },
+    "alerts": {
+      "template_applied": "{{name}} template applied.",
+      "export_success": "Template exported.",
+      "import_success": "Template imported.",
+      "deploy_success": "Deployment successful!\nLocation: {{path}}",
+      "deploy_error": "Error: {{error}}",
+      "select_output": "Select Output Directory"
+    }
+  },
+  "browse": {
+    "title": "Output Browser",
+    "back_to_list": "Back to folder list",
+    "no_folders": "No generated servers yet.",
+    "created_at": "Created at"
+  },
+  "plugins": {
+    "title": "Plugin Marketplace",
+    "subtitle": "Dynamically fetching from SpigotMC.",
+    "fetching": "Fetching..."
+  },
+  "about": {
+    "description": "Minecraft Server Constructor",
+    "version": "Version {{version}}",
+    "build": "Build {{build}}",
+    "author_title": "Author",
+    "author_sub": "Lead Architect & UI Designer",
+    "source_title": "Source",
+    "source_repo": "GitHub Repository",
+    "built_with": "Built with Passion & Rust & React"
+  },
+  "license": {
+    "title": "License",
+    "name": "MSB Attribution License (Modified MIT)",
+    "p1": "This software can be used, modified, and distributed freely, provided that the following conditions are met:",
+    "items": [
+      "The original copyright notice and this permission notice must be included in all copies or substantial portions of the software.",
+      "If you distribute a fork (derivative work), you must include a clear and visible attribution to the 'Minecraft Server Constructor (MSB)' project and its original authors.",
+      "The software is provided 'as is', without warranty of any kind."
+    ],
+    "badges": {
+      "open_source": "Open Source",
+      "fork_friendly": "Fork Friendly"
+    }
+  }
+}
+

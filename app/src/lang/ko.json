@@ -1,0 +1,159 @@
+{
+  "common": {
+    "latest": "최신",
+    "load": "불러오기",
+    "save": "저장",
+    "version": "버전",
+    "build": "빌드",
+    "deploy": "배포",
+    "deploying": "배포 중...",
+    "success": "성공",
+    "error": "오류",
+    "cancel": "취소",
+    "confirm": "확인",
+    "loading": "로딩 중...",
+    "none": "없음",
+    "view": "보기",
+    "install": "설치",
+    "page": "{{page}} 페이지",
+    "output_dir": "출력 디렉토리",
+    "set_output_dir": "출력 디렉토리 설정"
+  },
+  "sidebar": {
+    "dashboard": "대시보드",
+    "deploy": "배포",
+    "browse": "출력 브라우저",
+    "plugins": "플러그인",
+    "security": "보안",
+    "settings": "설정",
+    "about": "정보",
+    "theme": "테마",
+    "language": "언어",
+    "orchestrator": "오케스트레이터"
+  },
+  "header": {
+    "title": "MSB 콘솔",
+    "import": "불러오기",
+    "export": "저장",
+    "output_dir_btn": "출력 디렉토리 설정",
+    "deploy_btn": "배포",
+    "deploying_btn": "배포 중..."
+  },
+  "dashboard": {
+    "cpu_usage": "CPU 사용량",
+    "cpu_sub": "시스템 전체",
+    "memory_used": "사용된 메모리",
+    "memory_total": "전체: {{total}}",
+    "deployments": "배포 수",
+    "deployments_sub": "생성된 폴더 내",
+    "realtime_monitoring": "실시간 모니터링"
+  },
+  "deploy": {
+    "official_templates": "공식 템플릿",
+    "templates": {
+      "lobby": "로비 / 허브",
+      "survival": "바닐라 서바이벌",
+      "modded": "모드 클러스터"
+    },
+    "sections": {
+      "core": "1. 코어 엔진 설정",
+      "resource": "2. 리소스 및 네트워크",
+      "orchestration": "3. 오케스트레이션 기능"
+    },
+    "engine": "서버 엔진",
+    "engine_types": {
+      "purpur": "Purpur (최적화)",
+      "paper": "PaperMC (표준)",
+      "folia": "Folia (멀티스레드)",
+      "arclight": "Arclight (하이브리드)",
+      "fabric": "Fabric (모드용)",
+      "vanilla": "Vanilla (공식)",
+      "bds": "Bedrock (공식 BDS)"
+    },
+    "proxy_type": "프록시 유형",
+    "proxy_types": {
+      "velocity": "Velocity (권장)",
+      "waterfall": "Waterfall",
+      "bungeecord": "Bungeecord",
+      "none": "없음 (직접 연결)"
+    },
+    "proxy_ver": "프록시 버전",
+    "proxy_build": "프록시 빌드",
+    "memory_alloc": "메모리 할당",
+    "memory_unit": "MB",
+    "protocol_range": "프로토콜 범위 (ViaVersion)",
+    "multi_protocol": "멀티",
+    "features": {
+      "jdk": { "label": "자동 JDK", "sub": "최적의 Java 격리 설치" },
+      "bedrock": { "label": "베드락 지원", "sub": "Geyser/Floodgate 자동 연결" },
+      "discord": { "label": "디스코드 연동", "sub": "DiscordSRV 자동 설치" },
+      "sonar": { "label": "Sonar (안티봇)", "sub": "프록시 보호 강화" },
+      "limbo": { "label": "NanoLimbo 설치", "sub": "가벼운 대기 서버" },
+      "mem": { "label": "자동 메모리 할당", "sub": "Aikar's Flags 최적화" },
+      "eula": { "label": "EULA 동의", "sub": "Minecraft EULA에 동의함" }
+    },
+    "alerts": {
+      "template_applied": "{{name}} 템플릿이 적용되었습니다.",
+      "export_success": "템플릿을 내보냈습니다.",
+      "import_success": "템플릿을 가져왔습니다.",
+      "deploy_success": "배포 성공!\n위치: {{path}}",
+      "deploy_error": "오류: {{error}}",
+      "select_output": "출력 디렉토리 선택"
+    }
+  },
+  "browse": {
+    "title": "출력 브라우저",
+    "back_to_list": "폴더 목록으로 돌아가기",
+    "no_folders": "아직 생성된 서버가 없습니다.",
+    "created_at": "생성일"
+  },
+  "plugins": {
+    "title": "플러그인 마켓플레이스",
+    "subtitle": "SpigotMC에서 동적으로 가져오는 중.",
+    "fetching": "가져오는 중..."
+  },
+  "about": {
+    "description": "Minecraft Server Constructor (MSB)",
+    "version": "버전 {{version}}",
+    "build": "빌드 {{build}}",
+    "author_title": "제작자",
+    "author_sub": "리드 아키텍트 및 UI 디자이너",
+    "source_title": "소스",
+    "source_repo": "GitHub 저장소",
+    "built_with": "열정과 Rust 및 React로 제작됨"
+  },
+  "license": {
+    "title": "라이선스",
+    "name": "MSB 귀속 라이선스 (수정된 MIT)",
+    "p1": "이 소프트웨어는 다음 조건이 충족되는 경우 자유롭게 사용, 수정 및 배포할 수 있습니다:",
+    "items": [
+      "원본 저작권 고지 및 이 허가 고지는 소프트웨어의 모든 복사본 또는 상당 부분에 포함되어야 합니다.",
+      "포크(파생 저작물)를 배포하는 경우, 'Minecraft Server Constructor (MSB)' 프로젝트 및 원저작자에 대한 명확하고 가시적인 귀속 표시를 포함해야 합니다.",
+      "소프트웨어는 어떠한 종류의 보증 없이 '있는 그대로' 제공됩니다."
+    ],
+    "badges": {
+      "open_source": "오픈 소스",
+      "fork_friendly": "포크 친화적"
+    }
+  },
+  "security": {
+    "title": "보안 및 방화벽",
+    "ssh_access": "SSH 및 액세스 제어",
+    "firewall": "방화벽",
+    "ssh_key": "SSH 키 인증 강제",
+    "root_login": "루트 로그인 금지",
+    "password_auth": "비밀번호 인증 비활성화",
+    "backend_block": "직접 백엔드 액세스 차단",
+    "proxy_only": "프록시 포트를 제외한 모든 포트 닫기"
+  },
+  "settings": {
+    "title": "애플리케이션 설정",
+    "auto_cleanup": "생성 폴더 자동 정리",
+    "auto_cleanup_sub": "배포 실패 시 잔해물을 자동으로 삭제합니다.",
+    "output_platform": "기본 출력 플랫폼",
+    "output_platform_sub": "대상 OS를 선택하십시오.",
+    "danger_zone": "위험 구역",
+    "danger_zone_sub": "모든 데이터 초기화.",
+    "reset_btn": "모두 초기화"
+  }
+}

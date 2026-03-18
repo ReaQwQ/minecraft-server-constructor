@@ -1,0 +1,159 @@
+{
+  "common": {
+    "latest": "Neueste",
+    "load": "Laden",
+    "save": "Speichern",
+    "version": "Version",
+    "build": "Build",
+    "deploy": "Bereitstellen",
+    "deploying": "Wird bereitgestellt...",
+    "success": "Erfolg",
+    "error": "Fehler",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "loading": "Ladevorgang...",
+    "none": "Keine",
+    "view": "Ansehen",
+    "install": "INSTALLIEREN",
+    "page": "SEITE {{page}}",
+    "output_dir": "Ausgabeverzeichnis",
+    "set_output_dir": "Ausgabeverzeichnis festlegen"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "deploy": "Bereitstellen",
+    "browse": "Browser",
+    "plugins": "Plugins",
+    "security": "Sicherheit",
+    "settings": "Einstellungen",
+    "about": "Über",
+    "theme": "Design",
+    "language": "Sprache",
+    "orchestrator": "Orchestrator"
+  },
+  "header": {
+    "title": "MSB Konsole",
+    "import": "Laden",
+    "export": "Speichern",
+    "output_dir_btn": "Ausgabeverzeichnis festlegen",
+    "deploy_btn": "Bereitstellen",
+    "deploying_btn": "Wird bereitgestellt..."
+  },
+  "dashboard": {
+    "cpu_usage": "CPU-Auslastung",
+    "cpu_sub": "System Global",
+    "memory_used": "Verwendeter Speicher",
+    "memory_total": "Gesamt: {{total}}",
+    "deployments": "Bereitstellungen",
+    "deployments_sub": "im generierten Ordner",
+    "realtime_monitoring": "Echtzeit-Überwachung"
+  },
+  "deploy": {
+    "official_templates": "OFFIZIELLE VORLAGEN",
+    "templates": {
+      "lobby": "Lobby / Hub",
+      "survival": "Vanilla Survival",
+      "modded": "Modded Cluster"
+    },
+    "sections": {
+      "core": "1. Kern-Engine-Einstellungen",
+      "resource": "2. Ressourcen & Netzwerk",
+      "orchestration": "3. Orchestrierungsfunktionen"
+    },
+    "engine": "Server-Engine",
+    "engine_types": {
+      "purpur": "Purpur (Optimiert)",
+      "paper": "PaperMC (Standard)",
+      "folia": "Folia (Multi-threaded)",
+      "arclight": "Arclight (Hybrid)",
+      "fabric": "Fabric (für Mods)",
+      "vanilla": "Vanilla (Offiziell)",
+      "bds": "Bedrock (Offiziell BDS)"
+    },
+    "proxy_type": "Proxy-Typ",
+    "proxy_types": {
+      "velocity": "Velocity (Empfohlen)",
+      "waterfall": "Waterfall",
+      "bungeecord": "Bungeecord",
+      "none": "Keiner (Direktverbindung)"
+    },
+    "proxy_ver": "Proxy Ver",
+    "proxy_build": "Proxy Build",
+    "memory_alloc": "Speicherzuweisung",
+    "memory_unit": "MB",
+    "protocol_range": "Protokollbereich (ViaVersion)",
+    "multi_protocol": "MULTI",
+    "features": {
+      "jdk": { "label": "Auto JDK", "sub": "Optimale isolierte Java-Installation" },
+      "bedrock": { "label": "Bedrock-Unterstützung", "sub": "Geyser/Floodgate Auto-Link" },
+      "discord": { "label": "Discord-Integration", "sub": "Auto-Installation DiscordSRV" },
+      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Proxy-Schutz verstärken" },
+      "limbo": { "label": "NanoLimbo installieren", "sub": "Leichter Warteserver" },
+      "mem": { "label": "Auto-Speicherzuweisung", "sub": "Aikar's Flags Optimierung" },
+      "eula": { "label": "EULA akzeptieren", "sub": "Minecraft EULA zustimmen" }
+    },
+    "alerts": {
+      "template_applied": "Vorlage {{name}} angewendet.",
+      "export_success": "Vorlage exportiert.",
+      "import_success": "Vorlage importiert.",
+      "deploy_success": "Bereitstellung erfolgreich!\nOrt: {{path}}",
+      "deploy_error": "Fehler: {{error}}",
+      "select_output": "Ausgabeverzeichnis wählen"
+    }
+  },
+  "browse": {
+    "title": "Ausgabe-Browser",
+    "back_to_list": "Zurück zur Liste",
+    "no_folders": "Noch keine generierten Server.",
+    "created_at": "Erstellt am"
+  },
+  "plugins": {
+    "title": "Plugin-Marktplatz",
+    "subtitle": "Dynamisches Abrufen von SpigotMC.",
+    "fetching": "Abrufen..."
+  },
+  "about": {
+    "description": "Minecraft Server Constructor",
+    "version": "Version {{version}}",
+    "build": "Build {{build}}",
+    "author_title": "Autor",
+    "author_sub": "Chefarchitekt & UI-Designer",
+    "source_title": "Quelle",
+    "source_repo": "GitHub-Repository",
+    "built_with": "Mit Leidenschaft, Rust & React erstellt"
+  },
+  "license": {
+    "title": "Lizenz",
+    "name": "MSB-Namensnennungslizenz (Modifizierte MIT)",
+    "p1": "Diese Software kann frei verwendet, modifiziert und verbreitet werden, sofern die folgenden Bedingungen erfüllt sind:",
+    "items": [
+      "Der ursprüngliche Urheberrechtshinweis und dieser Berechtigungshinweis müssen in allen Kopien oder wesentlichen Teilen der Software enthalten sein.",
+      "Wenn Sie einen Fork (abgeleitetes Werk) verbreiten, müssen Sie eine klare und sichtbare Namensnennung zum 'Minecraft Server Constructor (MSB)'-Projekt und seinen ursprünglichen Autoren hinzufügen.",
+      "Die Software wird 'wie besehen' ohne jegliche Gewährleistung bereitgestellt."
+    ],
+    "badges": {
+      "open_source": "Open Source",
+      "fork_friendly": "Fork-freundlich"
+    }
+  },
+  "security": {
+    "title": "Sicherheit & Firewall",
+    "ssh_access": "SSH & Zugriffskontrolle",
+    "firewall": "Firewall",
+    "ssh_key": "SSH-Schlüssel-Auth erzwingen",
+    "root_login": "Root-Login verbieten",
+    "password_auth": "Passwort-Auth deaktivieren",
+    "backend_block": "Direkten Backend-Zugriff blockieren",
+    "proxy_only": "Alle außer Proxy-Ports schließen"
+  },
+  "settings": {
+    "title": "Anwendungseinstellungen",
+    "auto_cleanup": "Generierten Ordner automatisch bereinigen",
+    "auto_cleanup_sub": "Löscht automatisch Überreste bei fehlgeschlagener Bereitstellung.",
+    "output_platform": "Standard-Ausgabeplattform",
+    "output_platform_sub": "Ziel-Betriebssystem wählen.",
+    "danger_zone": "Gefahrenzone",
+    "danger_zone_sub": "Alle Daten zurücksetzen.",
+    "reset_btn": "Alles zurücksetzen"
+  }
+}
