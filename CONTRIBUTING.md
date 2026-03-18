@@ -15,7 +15,7 @@ By participating in this project, you agree to abide by our standards of profess
 - **Documentation**: All public functions MUST have a doc block in the following format:
   ```rust
   /**
-   * 説明: [Purpose]
+   * description: [Purpose]
    * @param [name] [description]
    * @requires [dependencies]
    * @return [meaning]

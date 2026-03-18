@@ -12,9 +12,12 @@
   "app": {
     "windows": [
       {
+        "label": "main",
         "title": "Minecraft Server Builder",
         "width": 1000,
         "height": 700,
+        "resizable": true,
+        "maximizable": true,
         "decorations": false,
         "transparent": true
       }

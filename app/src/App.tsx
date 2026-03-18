@@ -93,6 +93,13 @@ function App() {
     } else { root.classList.add(theme); }
   }, [theme]);
 
+  // 右クリック禁止
+  useEffect(() => {
+    const handleContextMenu = (e: MouseEvent) => e.preventDefault();
+    document.addEventListener("contextmenu", handleContextMenu);
+    return () => document.removeEventListener("contextmenu", handleContextMenu);
+  }, []);
+
   // -- Data Fetching Hooks --
   useEffect(() => {
     const fetchStats = async () => { try { setStats(await invoke("get_system_stats")); } catch (e) { console.error(e); } };
@@ -294,10 +301,13 @@ function App() {
   };
 
   /**
-   * 説明: 利用可能なプロトコルオプションを生成する
+   * 説明: 利用可能なプロトコルオプションを生成する。重複を防ぐため一意の値を生成。
    */
   const protocolOptions = useMemo(() => {
-    const list = protocols.map(p => ({ label: `${p.minecraftVersion} (${p.version})`, value: p.version.toString() }));
+    const list = protocols.map(p => ({ 
+      label: `${p.minecraftVersion} (${p.version})`, 
+      value: `${p.version}-${p.minecraftVersion}` // 💡 バージョン名を混ぜて一意にする
+    }));
     return [{ label: t("common.latest"), value: "latest" }, ...list];
   }, [protocols, t]);
 
