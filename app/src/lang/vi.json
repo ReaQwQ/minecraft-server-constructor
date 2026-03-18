@@ -1,140 +1,140 @@
 {
   "common": {
-    "latest": "Latest",
-    "load": "Load",
-    "save": "Save",
-    "version": "Version",
+    "latest": "Mới nhất",
+    "load": "Tải",
+    "save": "Lưu",
+    "version": "Phiên bản",
     "build": "Build",
-    "deploy": "Deploy",
-    "deploying": "Deploying...",
-    "success": "Success",
-    "error": "Error",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "loading": "Loading...",
-    "none": "None",
-    "view": "View",
-    "install": "INSTALL",
-    "page": "PAGE {{page}}",
-    "output_dir": "Output Directory",
-    "set_output_dir": "Set Output Dir"
+    "deploy": "Triển khai",
+    "deploying": "Đang triển khai...",
+    "success": "Thành công",
+    "error": "Lỗi",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "loading": "Đang tải...",
+    "none": "Không có",
+    "view": "Xem",
+    "install": "Cài đặt",
+    "installed": "Đã cài đặt",
+    "page": "Trang {{page}}",
+    "output_dir": "Thư mục đầu ra",
+    "set_output_dir": "Thiết lập đầu ra"
   },
   "sidebar": {
-    "dashboard": "Dashboard",
-    "deploy": "Deploy",
-    "browse": "Output Browser",
-    "plugins": "Plugins",
-    "security": "Security",
-    "settings": "Settings",
-    "about": "About",
-    "theme": "Theme",
-    "language": "Language",
+    "dashboard": "Bảng điều khiển",
+    "deploy": "Triển khai",
+    "browse": "Trình duyệt",
+    "plugins": "Plugin",
+    "security": "Bảo mật",
+    "settings": "Cài đặt",
+    "about": "Giới thiệu",
+    "theme": "Giao diện",
+    "language": "Ngôn ngữ",
     "orchestrator": "Orchestrator"
   },
   "header": {
-    "title": "MSB Console",
-    "import": "Load",
-    "export": "Save",
-    "output_dir_btn": "Set Output Dir",
-    "deploy_btn": "Deploy",
-    "deploying_btn": "Deploying..."
+    "title": "Bảng điều khiển MSB",
+    "import": "Nhập",
+    "export": "Xuất",
+    "output_dir_btn": "Thiết lập đầu ra",
+    "deploy_btn": "Bắt đầu triển khai",
+    "deploying_btn": "Đang triển khai..."
   },
   "dashboard": {
-    "cpu_usage": "CPU Usage",
-    "cpu_sub": "System Global",
-    "memory_used": "Memory used",
-    "memory_total": "Total: {{total}}",
-    "deployments": "Deployments",
-    "deployments_sub": "in generated folder",
-    "realtime_monitoring": "Real-time Monitoring"
+    "cpu_usage": "Sử dụng CPU",
+    "cpu_sub": "Toàn hệ thống",
+    "memory_used": "Bộ nhớ đã dùng",
+    "memory_total": "Tổng: {{total}} GB",
+    "deployments": "Triển khai",
+    "deployments_sub": "Trong thư mục đã tạo",
+    "realtime_monitoring": "Giám sát thời gian thực"
   },
   "deploy": {
-    "official_templates": "OFFICIAL TEMPLATES",
-    "templates": {
-      "lobby": "Lobby / Hub",
-      "survival": "Vanilla Survival",
-      "modded": "Modded Cluster"
-    },
-    "sections": {
-      "core": "1. Core Engine Settings",
-      "resource": "2. Resource & Network",
-      "orchestration": "3. Orchestration Features"
-    },
-    "engine": "Server Engine",
-    "engine_types": {
-      "purpur": "Purpur (Optimized)",
-      "paper": "PaperMC (Standard)",
-      "folia": "Folia (Multi-threaded)",
-      "arclight": "Arclight (Hybrid)",
-      "fabric": "Fabric (for Mods)",
-      "vanilla": "Vanilla (Official)",
-      "bds": "Bedrock (Official BDS)"
-    },
-    "proxy_type": "Proxy Type",
-    "proxy_types": {
-      "velocity": "Velocity (Recommended)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "None (Direct Connection)"
-    },
-    "proxy_ver": "Proxy Ver",
-    "proxy_build": "Proxy Build",
-    "memory_alloc": "Memory Allocation",
-    "memory_unit": "MB",
-    "protocol_range": "Protocol Range (ViaVersion)",
-    "multi_protocol": "MULTI",
-    "features": {
-      "jdk": { "label": "Auto JDK", "sub": "Optimal Java isolated installation" },
-      "bedrock": { "label": "Bedrock Support", "sub": "Geyser/Floodgate auto-link" },
-      "discord": { "label": "Discord Integration", "sub": "Auto-install DiscordSRV" },
-      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Strengthen proxy protection" },
-      "limbo": { "label": "Install NanoLimbo", "sub": "Lightweight waiting server" },
-      "mem": { "label": "Auto Memory Allocation", "sub": "Aikar's Flags optimization" },
-      "eula": { "label": "Accept EULA", "sub": "Agree to Minecraft EULA" }
-    },
+    "official_templates": "Mẫu chính thức",
+    "core_engine_settings": "1. Server Engine",
+    "resource_network": "2. Tài nguyên & Mạng",
+    "orchestration_features": "3. Tính năng",
+    "engine_label": "Server Engine",
+    "proxy_label": "Loại Proxy",
+    "proxy_ver_label": "Phiên bản Proxy",
+    "proxy_build_label": "Build Proxy",
+    "memory_label": "Phân bổ bộ nhớ",
+    "protocols_label": "Giao thức (ViaVersion)",
+    "jdk_auto": "Tự động cài JDK",
+    "jdk_sub": "Cài đặt Java biệt lập",
+    "bedrock": "Hỗ trợ Bedrock",
+    "bedrock_sub": "Tích hợp Geyser/Floodgate",
+    "discord": "Tích hợp Discord",
+    "discord_sub": "Cài đặt DiscordSRV",
+    "sonar_sub": "Bảo vệ Proxy",
+    "limbo_sub": "Server lobby nhẹ",
+    "memory_alloc": "Bộ nhớ tự động",
+    "mem_sub": "Tối ưu hóa Aikar's Flags",
+    "eula": "Đồng ý EULA",
+    "eula_sub": "Đồng ý Minecraft EULA",
     "alerts": {
-      "template_applied": "{{name}} template applied.",
-      "export_success": "Template exported.",
-      "import_success": "Template imported.",
-      "deploy_success": "Deployment successful!\nLocation: {{path}}",
-      "deploy_error": "Error: {{error}}",
-      "select_output": "Select Output Directory"
+      "template_applied": "Đã áp dụng mẫu {{name}}.",
+      "export_success": "Đã xuất mẫu.",
+      "import_success": "Đã nhập mẫu.",
+      "deploy_success": "Triển khai hoàn tất!\nVị trí: {{path}}",
+      "deploy_error": "Lỗi: {{error}}",
+      "select_output": "Vui lòng chọn thư mục đầu ra"
     }
   },
   "browse": {
-    "title": "Output Browser",
-    "back_to_list": "Back to folder list",
-    "no_folders": "No generated servers yet.",
-    "created_at": "Created at"
+    "title": "Trình duyệt sản phẩm",
+    "back_to_list": "Quay lại danh sách",
+    "no_folders": "Không tìm thấy server nào.",
+    "created_at": "Ngày tạo"
   },
   "plugins": {
-    "title": "Plugin Marketplace",
-    "subtitle": "Dynamically fetching from SpigotMC.",
-    "fetching": "Fetching..."
+    "title": "Thị trường Plugin",
+    "subtitle": "Cài đặt 100.000+ plugin từ SpigotMC.",
+    "fetching": "Đang tải...",
+    "install_success": "Đã cài đặt {{name}} thành công."
+  },
+  "security": {
+    "title": "Bảo mật & Tường lửa",
+    "ssh_access": "SSH & Truy cập",
+    "firewall": "Tường lửa",
+    "ssh_key": "Bắt buộc khóa SSH",
+    "root_login": "Cấm đăng nhập root",
+    "password_auth": "Tắt mật khẩu",
+    "backend_block": "Chặn truy cập backend",
+    "proxy_only": "Đóng các cổng phi-proxy"
+  },
+  "settings": {
+    "title": "Cài đặt ứng dụng",
+    "auto_cleanup": "Tự động dọn dẹp",
+    "auto_cleanup_sub": "Xóa tàn dư nếu triển khai lỗi.",
+    "output_platform": "Nền tảng đầu ra",
+    "output_platform_sub": "Chọn hệ điều hành mục tiêu.",
+    "danger_zone": "Vùng nguy hiểm",
+    "danger_zone_sub": "Đặt lại toàn bộ dữ liệu.",
+    "reset_btn": "Đặt lại tất cả"
   },
   "about": {
     "description": "Minecraft Server Constructor",
-    "version": "Version {{version}}",
+    "version": "Phiên bản {{version}}",
     "build": "Build {{build}}",
-    "author_title": "Author",
+    "author_title": "Tác giả",
     "author_sub": "Lead Architect & UI Designer",
-    "source_title": "Source",
+    "source_title": "Mã nguồn",
     "source_repo": "GitHub Repository",
-    "built_with": "Built with Passion & Rust & React"
+    "built_with": "Được xây dựng bằng Rust & React"
   },
   "license": {
-    "title": "License",
+    "title": "Giấy phép",
     "name": "MSB Attribution License (Modified MIT)",
-    "p1": "This software can be used, modified, and distributed freely, provided that the following conditions are met:",
+    "p1": "Phần mềm có thể sử dụng tự do với các điều kiện:",
     "items": [
-      "The original copyright notice and this permission notice must be included in all copies or substantial portions of the software.",
-      "If you distribute a fork (derivative work), you must include a clear and visible attribution to the 'Minecraft Server Constructor (MSB)' project and its original authors.",
-      "The software is provided 'as is', without warranty of any kind."
+      "Bao gồm thông báo bản quyền gốc.",
+      "Ghi danh MSB cho các bản fork.",
+      "Phần mềm được cung cấp 'nguyên trạng'."
     ],
     "badges": {
-      "open_source": "Open Source",
-      "fork_friendly": "Fork Friendly"
+      "open_source": "Mã nguồn mở",
+      "fork_friendly": "Khuyến khích Fork"
     }
   }
 }
-

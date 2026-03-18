@@ -1,135 +1,136 @@
 {
   "common": {
-    "latest": "Latest",
-    "load": "Load",
-    "save": "Save",
+    "latest": "Senaste",
+    "load": "Ladda",
+    "save": "Spara",
     "version": "Version",
-    "build": "Build",
-    "deploy": "Deploy",
-    "deploying": "Deploying...",
-    "success": "Success",
-    "error": "Error",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "loading": "Loading...",
-    "none": "None",
-    "view": "View",
-    "install": "INSTALL",
-    "page": "PAGE {{page}}",
-    "output_dir": "Output Directory",
-    "set_output_dir": "Set Output Dir"
+    "build": "Bygge",
+    "deploy": "Distribuera",
+    "deploying": "Distribuerar...",
+    "success": "Lyckades",
+    "error": "Fel",
+    "cancel": "Avbryt",
+    "confirm": "Bekräfta",
+    "loading": "Laddar...",
+    "none": "Ingen",
+    "view": "Visa",
+    "install": "Installera",
+    "installed": "Installerad",
+    "page": "Sida {{page}}",
+    "output_dir": "Utdatamapp",
+    "set_output_dir": "Ställ in utdata"
   },
   "sidebar": {
-    "dashboard": "Dashboard",
-    "deploy": "Deploy",
-    "browse": "Output Browser",
-    "plugins": "Plugins",
-    "security": "Security",
-    "settings": "Settings",
-    "about": "About",
-    "theme": "Theme",
-    "language": "Language",
+    "dashboard": "Översikt",
+    "deploy": "Distribution",
+    "browse": "Bläddra",
+    "plugins": "Insticksprogram",
+    "security": "Säkerhet",
+    "settings": "Inställningar",
+    "about": "Om MSB",
+    "theme": "Tema",
+    "language": "Språk",
     "orchestrator": "Orchestrator"
   },
   "header": {
-    "title": "MSB Console",
-    "import": "Load",
-    "export": "Save",
-    "output_dir_btn": "Set Output Dir",
-    "deploy_btn": "Deploy",
-    "deploying_btn": "Deploying..."
+    "title": "MSB Konsol",
+    "import": "Importera",
+    "export": "Exportera",
+    "output_dir_btn": "Välj utdatamapp",
+    "deploy_btn": "Starta distribution",
+    "deploying_btn": "Distribuerar..."
   },
   "dashboard": {
-    "cpu_usage": "CPU Usage",
-    "cpu_sub": "System Global",
-    "memory_used": "Memory used",
-    "memory_total": "Total: {{total}}",
-    "deployments": "Deployments",
-    "deployments_sub": "in generated folder",
-    "realtime_monitoring": "Real-time Monitoring"
+    "cpu_usage": "CPU-användning",
+    "cpu_sub": "Systemet totalt",
+    "memory_used": "Använt minne",
+    "memory_total": "Totalt: {{total}} GB",
+    "deployments": "Distributioner",
+    "deployments_sub": "I genererad mapp",
+    "realtime_monitoring": "Realtidsövervakning"
   },
   "deploy": {
-    "official_templates": "OFFICIAL TEMPLATES",
-    "templates": {
-      "lobby": "Lobby / Hub",
-      "survival": "Vanilla Survival",
-      "modded": "Modded Cluster"
-    },
-    "sections": {
-      "core": "1. Core Engine Settings",
-      "resource": "2. Resource & Network",
-      "orchestration": "3. Orchestration Features"
-    },
-    "engine": "Server Engine",
-    "engine_types": {
-      "purpur": "Purpur (Optimized)",
-      "paper": "PaperMC (Standard)",
-      "folia": "Folia (Multi-threaded)",
-      "arclight": "Arclight (Hybrid)",
-      "fabric": "Fabric (for Mods)",
-      "vanilla": "Vanilla (Official)",
-      "bds": "Bedrock (Official BDS)"
-    },
-    "proxy_type": "Proxy Type",
-    "proxy_types": {
-      "velocity": "Velocity (Recommended)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "None (Direct Connection)"
-    },
-    "proxy_ver": "Proxy Ver",
-    "proxy_build": "Proxy Build",
-    "memory_alloc": "Memory Allocation",
-    "memory_unit": "MB",
-    "protocol_range": "Protocol Range (ViaVersion)",
-    "multi_protocol": "MULTI",
-    "features": {
-      "jdk": { "label": "Auto JDK", "sub": "Optimal Java isolated installation" },
-      "bedrock": { "label": "Bedrock Support", "sub": "Geyser/Floodgate auto-link" },
-      "discord": { "label": "Discord Integration", "sub": "Auto-install DiscordSRV" },
-      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Strengthen proxy protection" },
-      "limbo": { "label": "Install NanoLimbo", "sub": "Lightweight waiting server" },
-      "mem": { "label": "Auto Memory Allocation", "sub": "Aikar's Flags optimization" },
-      "eula": { "label": "Accept EULA", "sub": "Agree to Minecraft EULA" }
-    },
+    "official_templates": "Officiella mallar",
+    "core_engine_settings": "1. Servermotor",
+    "resource_network": "2. Resurser & nätverk",
+    "orchestration_features": "3. Funktioner",
+    "engine_label": "Servermotor",
+    "proxy_label": "Proxytyp",
+    "proxy_ver_label": "Proxyversion",
+    "proxy_build_label": "Proxybygge",
+    "memory_label": "Minnesallokering",
+    "protocols_label": "Protokoll (ViaVersion)",
+    "jdk_auto": "Auto-installera JDK",
+    "jdk_sub": "Isolerad Java-installation",
+    "bedrock": "Bedrock-stöd",
+    "bedrock_sub": "Geyser/Floodgate-integration",
+    "discord": "Discord-integration",
+    "discord_sub": "Installera DiscordSRV",
+    "sonar_sub": "Proxyskydd",
+    "limbo_sub": "Lätt lobby-server",
+    "memory_alloc": "Automatiskt minne",
+    "mem_sub": "Optimering med Aikar's Flags",
+    "eula": "Godkänn EULA",
+    "eula_sub": "Godkänn Minecraft EULA",
     "alerts": {
-      "template_applied": "{{name}} template applied.",
-      "export_success": "Template exported.",
-      "import_success": "Template imported.",
-      "deploy_success": "Deployment successful!\nLocation: {{path}}",
-      "deploy_error": "Error: {{error}}",
-      "select_output": "Select Output Directory"
+      "template_applied": "Mall {{name}} tillämpad.",
+      "export_success": "Mall exporterad.",
+      "import_success": "Mall importerad.",
+      "deploy_success": "Distribution klar!\nPlats: {{path}}",
+      "deploy_error": "Fel: {{error}}",
+      "select_output": "Välj en utdatamapp"
     }
   },
   "browse": {
-    "title": "Output Browser",
-    "back_to_list": "Back to folder list",
-    "no_folders": "No generated servers yet.",
-    "created_at": "Created at"
+    "title": "Produktbläddrare",
+    "back_to_list": "Tillbaka till listan",
+    "no_folders": "Inga servrar hittades.",
+    "created_at": "Skapad den"
   },
   "plugins": {
-    "title": "Plugin Marketplace",
-    "subtitle": "Dynamically fetching from SpigotMC.",
-    "fetching": "Fetching..."
+    "title": "Plugin-marknad",
+    "subtitle": "Installera 100 000+ insticksprogram från SpigotMC.",
+    "fetching": "Hämtar...",
+    "install_success": "{{name}} har installerats."
+  },
+  "security": {
+    "title": "Säkerhet & brandvägg",
+    "ssh_access": "SSH & åtkomst",
+    "firewall": "Brandvägg",
+    "ssh_key": "Kräv SSH-nyckel",
+    "root_login": "Förbjud root-inloggning",
+    "password_auth": "Inaktivera lösenord",
+    "backend_block": "Blockera direktåtkomst",
+    "proxy_only": "Stäng alla utom proxyportar"
+  },
+  "settings": {
+    "title": "Appinställningar",
+    "auto_cleanup": "Automatisk rensning",
+    "auto_cleanup_sub": "Ta bort rester vid fel.",
+    "output_platform": "Plattform för utdata",
+    "output_platform_sub": "Välj mål-OS.",
+    "danger_zone": "Riskzon",
+    "danger_zone_sub": "Återställ all data.",
+    "reset_btn": "Återställ allt"
   },
   "about": {
     "description": "Minecraft Server Constructor",
     "version": "Version {{version}}",
-    "build": "Build {{build}}",
-    "author_title": "Author",
+    "build": "Bygge {{build}}",
+    "author_title": "Skapare",
     "author_sub": "Lead Architect & UI Designer",
-    "source_title": "Source",
+    "source_title": "Källkod",
     "source_repo": "GitHub Repository",
-    "built_with": "Built with Passion & Rust & React"
+    "built_with": "Skapat med passion, Rust & React"
   },
   "license": {
-    "title": "License",
+    "title": "Licens",
     "name": "MSB Attribution License (Modified MIT)",
-    "p1": "This software can be used, modified, and distributed freely, provided that the following conditions are met:",
+    "p1": "Programvaran får användas fritt under dessa villkor:",
     "items": [
-      "The original copyright notice and this permission notice must be included in all copies or substantial portions of the software.",
-      "If you distribute a fork (derivative work), you must include a clear and visible attribution to the 'Minecraft Server Constructor (MSB)' project and its original authors.",
-      "The software is provided 'as is', without warranty of any kind."
+      "Inkludera ursprungligt upphovsrättsmeddelande.",
+      "Tydlig hänvisning till MSB vid forkning.",
+      "Programvaran tillhandahålls i befintligt skick."
     ],
     "badges": {
       "open_source": "Open Source",
@@ -137,4 +138,3 @@
     }
   }
 }
-

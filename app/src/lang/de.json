@@ -11,149 +11,130 @@
     "error": "Fehler",
     "cancel": "Abbrechen",
     "confirm": "Bestätigen",
-    "loading": "Ladevorgang...",
+    "loading": "Laden...",
     "none": "Keine",
-    "view": "Ansehen",
-    "install": "INSTALLIEREN",
-    "page": "SEITE {{page}}",
+    "view": "Anzeigen",
+    "install": "Installieren",
+    "installed": "Installiert",
+    "page": "Seite {{page}}",
     "output_dir": "Ausgabeverzeichnis",
-    "set_output_dir": "Ausgabeverzeichnis festlegen"
+    "set_output_dir": "Ausgabe festlegen"
   },
   "sidebar": {
     "dashboard": "Dashboard",
-    "deploy": "Bereitstellen",
+    "deploy": "Bereitstellung",
     "browse": "Browser",
     "plugins": "Plugins",
     "security": "Sicherheit",
     "settings": "Einstellungen",
-    "about": "Über",
-    "theme": "Design",
+    "about": "Über MSB",
+    "theme": "Theme",
     "language": "Sprache",
     "orchestrator": "Orchestrator"
   },
   "header": {
     "title": "MSB Konsole",
-    "import": "Laden",
-    "export": "Speichern",
-    "output_dir_btn": "Ausgabeverzeichnis festlegen",
-    "deploy_btn": "Bereitstellen",
+    "import": "Importieren",
+    "export": "Exportieren",
+    "output_dir_btn": "Ausgabe festlegen",
+    "deploy_btn": "Bereitstellung starten",
     "deploying_btn": "Wird bereitgestellt..."
   },
   "dashboard": {
     "cpu_usage": "CPU-Auslastung",
     "cpu_sub": "System Global",
-    "memory_used": "Verwendeter Speicher",
-    "memory_total": "Gesamt: {{total}}",
+    "memory_used": "Speicher genutzt",
+    "memory_total": "Gesamt: {{total}} GB",
     "deployments": "Bereitstellungen",
-    "deployments_sub": "im generierten Ordner",
+    "deployments_sub": "Im Ausgabeordner",
     "realtime_monitoring": "Echtzeit-Überwachung"
   },
   "deploy": {
-    "official_templates": "OFFIZIELLE VORLAGEN",
-    "templates": {
-      "lobby": "Lobby / Hub",
-      "survival": "Vanilla Survival",
-      "modded": "Modded Cluster"
-    },
-    "sections": {
-      "core": "1. Kern-Engine-Einstellungen",
-      "resource": "2. Ressourcen & Netzwerk",
-      "orchestration": "3. Orchestrierungsfunktionen"
-    },
-    "engine": "Server-Engine",
-    "engine_types": {
-      "purpur": "Purpur (Optimiert)",
-      "paper": "PaperMC (Standard)",
-      "folia": "Folia (Multi-threaded)",
-      "arclight": "Arclight (Hybrid)",
-      "fabric": "Fabric (für Mods)",
-      "vanilla": "Vanilla (Offiziell)",
-      "bds": "Bedrock (Offiziell BDS)"
-    },
-    "proxy_type": "Proxy-Typ",
-    "proxy_types": {
-      "velocity": "Velocity (Empfohlen)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "Keiner (Direktverbindung)"
-    },
-    "proxy_ver": "Proxy Ver",
-    "proxy_build": "Proxy Build",
-    "memory_alloc": "Speicherzuweisung",
-    "memory_unit": "MB",
-    "protocol_range": "Protokollbereich (ViaVersion)",
-    "multi_protocol": "MULTI",
-    "features": {
-      "jdk": { "label": "Auto JDK", "sub": "Optimale isolierte Java-Installation" },
-      "bedrock": { "label": "Bedrock-Unterstützung", "sub": "Geyser/Floodgate Auto-Link" },
-      "discord": { "label": "Discord-Integration", "sub": "Auto-Installation DiscordSRV" },
-      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Proxy-Schutz verstärken" },
-      "limbo": { "label": "NanoLimbo installieren", "sub": "Leichter Warteserver" },
-      "mem": { "label": "Auto-Speicherzuweisung", "sub": "Aikar's Flags Optimierung" },
-      "eula": { "label": "EULA akzeptieren", "sub": "Minecraft EULA zustimmen" }
-    },
+    "official_templates": "Offizielle Vorlagen",
+    "core_engine_settings": "1. Kern-Engine",
+    "resource_network": "2. Ressourcen & Netzwerk",
+    "orchestration_features": "3. Funktionen",
+    "engine_label": "Server-Engine",
+    "proxy_label": "Proxy-Typ",
+    "proxy_ver_label": "Proxy Ver",
+    "proxy_build_label": "Proxy Build",
+    "memory_label": "Speicherzuweisung",
+    "protocols_label": "Protokolle (ViaVersion)",
+    "jdk_auto": "JDK Auto-Install",
+    "jdk_sub": "Isolierte Java-Installation",
+    "bedrock": "Bedrock-Support",
+    "bedrock_sub": "Geyser/Floodgate Integration",
+    "discord": "Discord-Integration",
+    "discord_sub": "DiscordSRV installieren",
+    "sonar_sub": "Proxy-Schutz",
+    "limbo_sub": "Leichter Lobby-Server",
+    "memory_alloc": "Auto-Speicher",
+    "mem_sub": "Aikar's Flags Optimierung",
+    "eula": "EULA zustimmen",
+    "eula_sub": "Minecraft EULA zustimmen",
     "alerts": {
-      "template_applied": "Vorlage {{name}} angewendet.",
+      "template_applied": "{{name}} Vorlage angewendet.",
       "export_success": "Vorlage exportiert.",
       "import_success": "Vorlage importiert.",
-      "deploy_success": "Bereitstellung erfolgreich!\nOrt: {{path}}",
+      "deploy_success": "Bereitstellung abgeschlossen!\nOrt: {{path}}",
       "deploy_error": "Fehler: {{error}}",
-      "select_output": "Ausgabeverzeichnis wählen"
+      "select_output": "Bitte Ausgabeverzeichnis wählen"
     }
   },
   "browse": {
-    "title": "Ausgabe-Browser",
+    "title": "Artefakt-Browser",
     "back_to_list": "Zurück zur Liste",
-    "no_folders": "Noch keine generierten Server.",
+    "no_folders": "Keine Server gefunden.",
     "created_at": "Erstellt am"
   },
   "plugins": {
     "title": "Plugin-Marktplatz",
-    "subtitle": "Dynamisches Abrufen von SpigotMC.",
-    "fetching": "Abrufen..."
+    "subtitle": "Installieren Sie 100.000+ Plugins von SpigotMC.",
+    "fetching": "Wird geladen...",
+    "install_success": "{{name}} erfolgreich installiert."
+  },
+  "security": {
+    "title": "Sicherheit & Firewall",
+    "ssh_access": "SSH & Zugriff",
+    "firewall": "Firewall",
+    "ssh_key": "SSH-Key erzwingen",
+    "root_login": "Root-Login verbieten",
+    "password_auth": "Passwort-Auth aus",
+    "backend_block": "Backend-Zugriff blocken",
+    "proxy_only": "Nur Proxy-Ports öffnen"
+  },
+  "settings": {
+    "title": "Anwendungseinstellungen",
+    "auto_cleanup": "Automatische Bereinigung",
+    "auto_cleanup_sub": "Reste bei Fehler löschen.",
+    "output_platform": "Zielplattform",
+    "output_platform_sub": "Ziel-Betriebssystem wählen.",
+    "danger_zone": "Gefahrenzone",
+    "danger_zone_sub": "Alle Daten zurücksetzen.",
+    "reset_btn": "Alles zurücksetzen"
   },
   "about": {
     "description": "Minecraft Server Constructor",
     "version": "Version {{version}}",
     "build": "Build {{build}}",
     "author_title": "Autor",
-    "author_sub": "Chefarchitekt & UI-Designer",
-    "source_title": "Quelle",
-    "source_repo": "GitHub-Repository",
-    "built_with": "Mit Leidenschaft, Rust & React erstellt"
+    "author_sub": "Lead Architect & UI Designer",
+    "source_title": "Quellcode",
+    "source_repo": "GitHub Repository",
+    "built_with": "Mit Leidenschaft, Rust & React"
   },
   "license": {
     "title": "Lizenz",
-    "name": "MSB-Namensnennungslizenz (Modifizierte MIT)",
-    "p1": "Diese Software kann frei verwendet, modifiziert und verbreitet werden, sofern die folgenden Bedingungen erfüllt sind:",
+    "name": "MSB Attribution License (Modified MIT)",
+    "p1": "Freie Nutzung unter diesen Bedingungen:",
     "items": [
-      "Der ursprüngliche Urheberrechtshinweis und dieser Berechtigungshinweis müssen in allen Kopien oder wesentlichen Teilen der Software enthalten sein.",
-      "Wenn Sie einen Fork (abgeleitetes Werk) verbreiten, müssen Sie eine klare und sichtbare Namensnennung zum 'Minecraft Server Constructor (MSB)'-Projekt und seinen ursprünglichen Autoren hinzufügen.",
-      "Die Software wird 'wie besehen' ohne jegliche Gewährleistung bereitgestellt."
+      "Copyright-Hinweis beibehalten.",
+      "Nennung von MSB bei Forks.",
+      "Software wird 'wie besehen' geliefert."
     ],
     "badges": {
       "open_source": "Open Source",
-      "fork_friendly": "Fork-freundlich"
+      "fork_friendly": "Fork Friendly"
     }
-  },
-  "security": {
-    "title": "Sicherheit & Firewall",
-    "ssh_access": "SSH & Zugriffskontrolle",
-    "firewall": "Firewall",
-    "ssh_key": "SSH-Schlüssel-Auth erzwingen",
-    "root_login": "Root-Login verbieten",
-    "password_auth": "Passwort-Auth deaktivieren",
-    "backend_block": "Direkten Backend-Zugriff blockieren",
-    "proxy_only": "Alle außer Proxy-Ports schließen"
-  },
-  "settings": {
-    "title": "Anwendungseinstellungen",
-    "auto_cleanup": "Generierten Ordner automatisch bereinigen",
-    "auto_cleanup_sub": "Löscht automatisch Überreste bei fehlgeschlagener Bereitstellung.",
-    "output_platform": "Standard-Ausgabeplattform",
-    "output_platform_sub": "Ziel-Betriebssystem wählen.",
-    "danger_zone": "Gefahrenzone",
-    "danger_zone_sub": "Alle Daten zurücksetzen.",
-    "reset_btn": "Alles zurücksetzen"
   }
 }

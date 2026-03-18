@@ -354,6 +354,7 @@ function App() {
                   proxyVersion={proxyVersion} setProxyVersion={setProxyVersion}
                   proxyBuild={proxyBuild} setProxyBuild={setProxyBuild}
                   memory={memory} setMemory={setMemory}
+                  maxMemory={stats ? Math.floor((stats.memory_total / 1024 / 1024) / 512) * 512 : 32768} // 💡 システムRAMから動的に計算
                   protoMin={protoMin} setProtoMin={setProtoMin}
                   protoMax={protoMax} setProtoMax={setProtoMax}
                   multiProtocol={multiProtocol} setMultiProtocol={setMultiProtocol}

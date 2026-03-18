@@ -1,140 +1,140 @@
 {
   "common": {
-    "latest": "Latest",
-    "load": "Load",
-    "save": "Save",
-    "version": "Version",
-    "build": "Build",
-    "deploy": "Deploy",
-    "deploying": "Deploying...",
-    "success": "Success",
-    "error": "Error",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "loading": "Loading...",
-    "none": "None",
-    "view": "View",
-    "install": "INSTALL",
-    "page": "PAGE {{page}}",
-    "output_dir": "Output Directory",
-    "set_output_dir": "Set Output Dir"
+    "latest": "नवीनतम",
+    "load": "लोड करें",
+    "save": "सहेजें",
+    "version": "संस्करण",
+    "build": "बिल्ड",
+    "deploy": "तैनात करें",
+    "deploying": "तैनात हो रहा है...",
+    "success": "सफलता",
+    "error": "त्रुटि",
+    "cancel": "रद्द करें",
+    "confirm": "पुष्टि करें",
+    "loading": "लोड हो रहा है...",
+    "none": "कोई नहीं",
+    "view": "देखें",
+    "install": "इंस्टॉल करें",
+    "installed": "इंस्टॉल किया गया",
+    "page": "पृष्ठ {{page}}",
+    "output_dir": "आउटपुट डायरेक्टरी",
+    "set_output_dir": "आउटपुट डायरेक्टरी सेट करें"
   },
   "sidebar": {
-    "dashboard": "Dashboard",
-    "deploy": "Deploy",
-    "browse": "Output Browser",
-    "plugins": "Plugins",
-    "security": "Security",
-    "settings": "Settings",
-    "about": "About",
-    "theme": "Theme",
-    "language": "Language",
-    "orchestrator": "Orchestrator"
+    "dashboard": "डैशबोर्ड",
+    "deploy": "तैनात करें",
+    "browse": "आर्टिफैक्ट ब्राउज़र",
+    "plugins": "प्लगइन्स",
+    "security": "सुरक्षा",
+    "settings": "सेटिंग्स",
+    "about": "MSB के बारे में",
+    "theme": "थीम",
+    "language": "भाषा",
+    "orchestrator": "ऑर्केस्ट्रेटर"
   },
   "header": {
-    "title": "MSB Console",
-    "import": "Load",
-    "export": "Save",
-    "output_dir_btn": "Set Output Dir",
-    "deploy_btn": "Deploy",
-    "deploying_btn": "Deploying..."
+    "title": "MSB कंसोल",
+    "import": "आयात",
+    "export": "निर्यात",
+    "output_dir_btn": "आउटपुट डायरेक्टरी सेट करें",
+    "deploy_btn": "तैनाती शुरू करें",
+    "deploying_btn": "तैनात हो रहा है..."
   },
   "dashboard": {
-    "cpu_usage": "CPU Usage",
-    "cpu_sub": "System Global",
-    "memory_used": "Memory used",
-    "memory_total": "Total: {{total}}",
-    "deployments": "Deployments",
-    "deployments_sub": "in generated folder",
-    "realtime_monitoring": "Real-time Monitoring"
+    "cpu_usage": "सीपीयू उपयोग",
+    "cpu_sub": "सिस्टम ग्लोबल",
+    "memory_used": "प्रयुक्त मेमोरी",
+    "memory_total": "कुल: {{total}} GB",
+    "deployments": "तैनाती",
+    "deployments_sub": "जेनरेट किए गए फोल्डर में",
+    "realtime_monitoring": "रीयल-टाइम मॉनिटरिंग"
   },
   "deploy": {
-    "official_templates": "OFFICIAL TEMPLATES",
-    "templates": {
-      "lobby": "Lobby / Hub",
-      "survival": "Vanilla Survival",
-      "modded": "Modded Cluster"
-    },
-    "sections": {
-      "core": "1. Core Engine Settings",
-      "resource": "2. Resource & Network",
-      "orchestration": "3. Orchestration Features"
-    },
-    "engine": "Server Engine",
-    "engine_types": {
-      "purpur": "Purpur (Optimized)",
-      "paper": "PaperMC (Standard)",
-      "folia": "Folia (Multi-threaded)",
-      "arclight": "Arclight (Hybrid)",
-      "fabric": "Fabric (for Mods)",
-      "vanilla": "Vanilla (Official)",
-      "bds": "Bedrock (Official BDS)"
-    },
-    "proxy_type": "Proxy Type",
-    "proxy_types": {
-      "velocity": "Velocity (Recommended)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "None (Direct Connection)"
-    },
-    "proxy_ver": "Proxy Ver",
-    "proxy_build": "Proxy Build",
-    "memory_alloc": "Memory Allocation",
-    "memory_unit": "MB",
-    "protocol_range": "Protocol Range (ViaVersion)",
-    "multi_protocol": "MULTI",
-    "features": {
-      "jdk": { "label": "Auto JDK", "sub": "Optimal Java isolated installation" },
-      "bedrock": { "label": "Bedrock Support", "sub": "Geyser/Floodgate auto-link" },
-      "discord": { "label": "Discord Integration", "sub": "Auto-install DiscordSRV" },
-      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Strengthen proxy protection" },
-      "limbo": { "label": "Install NanoLimbo", "sub": "Lightweight waiting server" },
-      "mem": { "label": "Auto Memory Allocation", "sub": "Aikar's Flags optimization" },
-      "eula": { "label": "Accept EULA", "sub": "Agree to Minecraft EULA" }
-    },
+    "official_templates": "आधिकारिक टेम्पलेट्स",
+    "core_engine_settings": "1. कोर इंजन सेटिंग्स",
+    "resource_network": "2. संसाधन और नेटवर्क",
+    "orchestration_features": "3. ऑर्केस्ट्रेशन सुविधाएँ",
+    "engine_label": "सर्वर इंजन",
+    "proxy_label": "प्रॉक्सी प्रकार",
+    "proxy_ver_label": "प्रॉक्सी वर्ज़न",
+    "proxy_build_label": "प्रॉक्सी बिल्ड",
+    "memory_label": "मेमोरी आवंटन",
+    "protocols_label": "प्रोटोकॉल रेंज (ViaVersion)",
+    "jdk_auto": "JDK ऑटो-इंस्टॉल",
+    "jdk_sub": "इष्टतम जावा का आइसोलेटेड इंस्टाल",
+    "bedrock": "बेडरॉक सपोर्ट",
+    "bedrock_sub": "Geyser/Floodgate ऑटो-इंटीग्रेशन",
+    "discord": "डिस्कॉर्ड इंटीग्रेशन",
+    "discord_sub": "DiscordSRV ऑटो-इंस्टॉल",
+    "sonar_sub": "प्रॉक्सी सुरक्षा बढ़ाएं",
+    "limbo_sub": "लॉबी के लिए हल्का सर्वर",
+    "memory_alloc": "ऑटो मेमोरी आवंटन",
+    "mem_sub": "Aikar's Flags अनुकूलन",
+    "eula": "EULA से सहमत",
+    "eula_sub": "Minecraft EULA से सहमत",
     "alerts": {
-      "template_applied": "{{name}} template applied.",
-      "export_success": "Template exported.",
-      "import_success": "Template imported.",
-      "deploy_success": "Deployment successful!\nLocation: {{path}}",
-      "deploy_error": "Error: {{error}}",
-      "select_output": "Select Output Directory"
+      "template_applied": "{{name}} टेम्पलेट लागू किया गया।",
+      "export_success": "टेम्पलेट निर्यात किया गया।",
+      "import_success": "टेम्पलेट आयात किया गया।",
+      "deploy_success": "तैनाती पूरी हुई!\nस्थान: {{path}}",
+      "deploy_error": "त्रुटि: {{error}}",
+      "select_output": "कृपया एक आउटपुट डायरेक्टरी चुनें"
     }
   },
   "browse": {
-    "title": "Output Browser",
-    "back_to_list": "Back to folder list",
-    "no_folders": "No generated servers yet.",
-    "created_at": "Created at"
+    "title": "आर्टिफैक्ट ब्राउज़र",
+    "back_to_list": "सूची पर वापस जाएं",
+    "no_folders": "कोई जेनरेट किया गया सर्वर नहीं मिला।",
+    "created_at": "बनाया गया"
   },
   "plugins": {
-    "title": "Plugin Marketplace",
-    "subtitle": "Dynamically fetching from SpigotMC.",
-    "fetching": "Fetching..."
+    "title": "प्लगइन मार्केटप्लेस",
+    "subtitle": "SpigotMC से सीधे अपने सर्वर पर 100,000+ प्लगइन्स इंस्टॉल करें।",
+    "fetching": "लाया जा रहा है...",
+    "install_success": "{{name}} सफलतापूर्वक इंस्टॉल किया गया।"
+  },
+  "security": {
+    "title": "सुरक्षा और फ़ायरवॉल",
+    "ssh_access": "SSH और एक्सेस कंट्रोल",
+    "firewall": "फ़ायरवॉल",
+    "ssh_key": "SSH की ऑथेंटिकेशन लागू करें",
+    "root_login": "रूट लॉगिन अक्षम करें",
+    "password_auth": "पासवर्ड ऑथेंटिकेशन अक्षम करें",
+    "backend_block": "बैकएंड एक्सेस ब्लॉक करें",
+    "proxy_only": "प्रॉक्सी पोर्ट के अलावा सब बंद करें"
+  },
+  "settings": {
+    "title": "एप्लिकेशन सेटिंग्स",
+    "auto_cleanup": "जेनरेट फोल्डर की ऑटो-सफाई",
+    "auto_cleanup_sub": "विफल तैनाती पर मलबे को स्वचालित रूप से हटा दें।",
+    "output_platform": "डिफ़ॉल्ट आउटपुट प्लेटफ़ॉर्म",
+    "output_platform_sub": "लक्ष्य OS चुनें।",
+    "danger_zone": "खतरनाक क्षेत्र",
+    "danger_zone_sub": "सभी डेटा रीसेट करें।",
+    "reset_btn": "सब रीसेट करें"
   },
   "about": {
-    "description": "Minecraft Server Constructor",
-    "version": "Version {{version}}",
-    "build": "Build {{build}}",
-    "author_title": "Author",
-    "author_sub": "Lead Architect & UI Designer",
-    "source_title": "Source",
-    "source_repo": "GitHub Repository",
+    "description": "माइनक्राफ्ट सर्वर कंस्ट्रक्टर",
+    "version": "वर्ज़न {{version}}",
+    "build": "बिल्ड {{build}}",
+    "author_title": "लेखक",
+    "author_sub": "लीड आर्किटेक्ट और यूआई डिजाइनर",
+    "source_title": "सोर्स कोड",
+    "source_repo": "GitHub रिपॉजिटरी",
     "built_with": "Built with Passion & Rust & React"
   },
   "license": {
-    "title": "License",
-    "name": "MSB Attribution License (Modified MIT)",
-    "p1": "This software can be used, modified, and distributed freely, provided that the following conditions are met:",
+    "title": "लाइसेंस",
+    "name": "MSB एट्रिब्यूशन लाइसेंस (संशोधित MIT)",
+    "p1": "इस सॉफ्टवेयर का उपयोग, संशोधन और वितरण स्वतंत्र रूप से किया जा सकता है, बशर्ته निम्नलिखित शर्तें पूरी हों:",
     "items": [
-      "The original copyright notice and this permission notice must be included in all copies or substantial portions of the software.",
-      "If you distribute a fork (derivative work), you must include a clear and visible attribution to the 'Minecraft Server Constructor (MSB)' project and its original authors.",
-      "The software is provided 'as is', without warranty of any kind."
+      "मूल कॉपीराइट नोटिस और यह अनुमति नोटिस सॉफ्टवेयर की सभी प्रतियों या महत्वपूर्ण भागों में शामिल होना चाहिए।",
+      "यदि आप कोई फोर्क (डेरिवेटिव वर्क) वितरित करते हैं, तो आपको 'Minecraft Server Constructor (MSB)' प्रोजेक्ट और उसके मूल लेखकों को स्पष्ट और दृश्यमान श्रेय देना होगा।",
+      "सॉफ्टवेयर बिना किसी वारंटी के 'जैसा है' प्रदान किया गया है।"
     ],
     "badges": {
-      "open_source": "Open Source",
-      "fork_friendly": "Fork Friendly"
+      "open_source": "ओपन सोर्स",
+      "fork_friendly": "फोर्क फ्रेंडली"
     }
   }
 }
-

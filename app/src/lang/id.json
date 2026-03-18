@@ -1,135 +1,136 @@
 {
   "common": {
-    "latest": "Latest",
-    "load": "Load",
-    "save": "Save",
-    "version": "Version",
+    "latest": "Terbaru",
+    "load": "Muat",
+    "save": "Simpan",
+    "version": "Versi",
     "build": "Build",
     "deploy": "Deploy",
-    "deploying": "Deploying...",
-    "success": "Success",
+    "deploying": "Sedang Deploy...",
+    "success": "Berhasil",
     "error": "Error",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "loading": "Loading...",
-    "none": "None",
-    "view": "View",
-    "install": "INSTALL",
-    "page": "PAGE {{page}}",
-    "output_dir": "Output Directory",
-    "set_output_dir": "Set Output Dir"
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
+    "loading": "Memuat...",
+    "none": "Tidak ada",
+    "view": "Lihat",
+    "install": "Instal",
+    "installed": "Terinstal",
+    "page": "Halaman {{page}}",
+    "output_dir": "Direktori Output",
+    "set_output_dir": "Atur Output"
   },
   "sidebar": {
     "dashboard": "Dashboard",
     "deploy": "Deploy",
-    "browse": "Output Browser",
-    "plugins": "Plugins",
-    "security": "Security",
-    "settings": "Settings",
-    "about": "About",
-    "theme": "Theme",
-    "language": "Language",
+    "browse": "Browser",
+    "plugins": "Plugin",
+    "security": "Keamanan",
+    "settings": "Pengaturan",
+    "about": "Tentang MSB",
+    "theme": "Tema",
+    "language": "Bahasa",
     "orchestrator": "Orchestrator"
   },
   "header": {
-    "title": "MSB Console",
-    "import": "Load",
-    "export": "Save",
-    "output_dir_btn": "Set Output Dir",
-    "deploy_btn": "Deploy",
+    "title": "Konsol MSB",
+    "import": "Impor",
+    "export": "Ekspor",
+    "output_dir_btn": "Atur Output",
+    "deploy_btn": "Mulai Deploy",
     "deploying_btn": "Deploying..."
   },
   "dashboard": {
-    "cpu_usage": "CPU Usage",
-    "cpu_sub": "System Global",
-    "memory_used": "Memory used",
-    "memory_total": "Total: {{total}}",
-    "deployments": "Deployments",
-    "deployments_sub": "in generated folder",
-    "realtime_monitoring": "Real-time Monitoring"
+    "cpu_usage": "Penggunaan CPU",
+    "cpu_sub": "Sistem Global",
+    "memory_used": "Memori Terpakai",
+    "memory_total": "Total: {{total}} GB",
+    "deployments": "Deployment",
+    "deployments_sub": "Dalam folder output",
+    "realtime_monitoring": "Monitoring Real-time"
   },
   "deploy": {
-    "official_templates": "OFFICIAL TEMPLATES",
-    "templates": {
-      "lobby": "Lobby / Hub",
-      "survival": "Vanilla Survival",
-      "modded": "Modded Cluster"
-    },
-    "sections": {
-      "core": "1. Core Engine Settings",
-      "resource": "2. Resource & Network",
-      "orchestration": "3. Orchestration Features"
-    },
-    "engine": "Server Engine",
-    "engine_types": {
-      "purpur": "Purpur (Optimized)",
-      "paper": "PaperMC (Standard)",
-      "folia": "Folia (Multi-threaded)",
-      "arclight": "Arclight (Hybrid)",
-      "fabric": "Fabric (for Mods)",
-      "vanilla": "Vanilla (Official)",
-      "bds": "Bedrock (Official BDS)"
-    },
-    "proxy_type": "Proxy Type",
-    "proxy_types": {
-      "velocity": "Velocity (Recommended)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "None (Direct Connection)"
-    },
-    "proxy_ver": "Proxy Ver",
-    "proxy_build": "Proxy Build",
-    "memory_alloc": "Memory Allocation",
-    "memory_unit": "MB",
-    "protocol_range": "Protocol Range (ViaVersion)",
-    "multi_protocol": "MULTI",
-    "features": {
-      "jdk": { "label": "Auto JDK", "sub": "Optimal Java isolated installation" },
-      "bedrock": { "label": "Bedrock Support", "sub": "Geyser/Floodgate auto-link" },
-      "discord": { "label": "Discord Integration", "sub": "Auto-install DiscordSRV" },
-      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Strengthen proxy protection" },
-      "limbo": { "label": "Install NanoLimbo", "sub": "Lightweight waiting server" },
-      "mem": { "label": "Auto Memory Allocation", "sub": "Aikar's Flags optimization" },
-      "eula": { "label": "Accept EULA", "sub": "Agree to Minecraft EULA" }
-    },
+    "official_templates": "Template Resmi",
+    "core_engine_settings": "1. Server Engine",
+    "resource_network": "2. Sumber Daya & Jaringan",
+    "orchestration_features": "3. Fitur",
+    "engine_label": "Server Engine",
+    "proxy_label": "Tipe Proxy",
+    "proxy_ver_label": "Versi Proxy",
+    "proxy_build_label": "Build Proxy",
+    "memory_label": "Alokasi Memori",
+    "protocols_label": "Protokol (ViaVersion)",
+    "jdk_auto": "Auto-Install JDK",
+    "jdk_sub": "Instalasi Java terisolasi",
+    "bedrock": "Dukungan Bedrock",
+    "bedrock_sub": "Integrasi Geyser/Floodgate",
+    "discord": "Integrasi Discord",
+    "discord_sub": "Instal DiscordSRV",
+    "sonar_sub": "Perlindungan Proxy",
+    "limbo_sub": "Server lobby ringan",
+    "memory_alloc": "Auto Memori",
+    "mem_sub": "Optimasi Aikar's Flags",
+    "eula": "Setujui EULA",
+    "eula_sub": "Setujui Minecraft EULA",
     "alerts": {
-      "template_applied": "{{name}} template applied.",
-      "export_success": "Template exported.",
-      "import_success": "Template imported.",
-      "deploy_success": "Deployment successful!\nLocation: {{path}}",
+      "template_applied": "Template {{name}} diterapkan.",
+      "export_success": "Template diekspor.",
+      "import_success": "Template diimpor.",
+      "deploy_success": "Deploy selesai!\nLokasi: {{path}}",
       "deploy_error": "Error: {{error}}",
-      "select_output": "Select Output Directory"
+      "select_output": "Pilih direktori output"
     }
   },
   "browse": {
-    "title": "Output Browser",
-    "back_to_list": "Back to folder list",
-    "no_folders": "No generated servers yet.",
-    "created_at": "Created at"
+    "title": "Artifact Browser",
+    "back_to_list": "Kembali ke daftar",
+    "no_folders": "Server tidak ditemukan.",
+    "created_at": "Dibuat pada"
   },
   "plugins": {
-    "title": "Plugin Marketplace",
-    "subtitle": "Dynamically fetching from SpigotMC.",
-    "fetching": "Fetching..."
+    "title": "Pasar Plugin",
+    "subtitle": "Instal 100,000+ plugin dari SpigotMC.",
+    "fetching": "Mengambil...",
+    "install_success": "Plugin {{name}} berhasil diinstal."
+  },
+  "security": {
+    "title": "Keamanan & Firewall",
+    "ssh_access": "SSH & Akses",
+    "firewall": "Firewall",
+    "ssh_key": "Paksa Kunci SSH",
+    "root_login": "Larang login root",
+    "password_auth": "Matikan password",
+    "backend_block": "Blokir akses backend",
+    "proxy_only": "Tutup port non-proxy"
+  },
+  "settings": {
+    "title": "Pengaturan Aplikasi",
+    "auto_cleanup": "Pembersihan Otomatis",
+    "auto_cleanup_sub": "Hapus sisa file jika gagal.",
+    "output_platform": "Platform Output",
+    "output_platform_sub": "Pilih OS target.",
+    "danger_zone": "Zona Bahaya",
+    "danger_zone_sub": "Reset semua data.",
+    "reset_btn": "Reset Semua"
   },
   "about": {
     "description": "Minecraft Server Constructor",
-    "version": "Version {{version}}",
+    "version": "Versi {{version}}",
     "build": "Build {{build}}",
-    "author_title": "Author",
+    "author_title": "Penulis",
     "author_sub": "Lead Architect & UI Designer",
-    "source_title": "Source",
-    "source_repo": "GitHub Repository",
-    "built_with": "Built with Passion & Rust & React"
+    "source_title": "Kode Sumber",
+    "source_repo": "Repositori GitHub",
+    "built_with": "Dibuat dengan Passion, Rust & React"
   },
   "license": {
-    "title": "License",
+    "title": "Lisensi",
     "name": "MSB Attribution License (Modified MIT)",
-    "p1": "This software can be used, modified, and distributed freely, provided that the following conditions are met:",
+    "p1": "Software dapat digunakan bebas dengan syarat:",
     "items": [
-      "The original copyright notice and this permission notice must be included in all copies or substantial portions of the software.",
-      "If you distribute a fork (derivative work), you must include a clear and visible attribution to the 'Minecraft Server Constructor (MSB)' project and its original authors.",
-      "The software is provided 'as is', without warranty of any kind."
+      "Sertakan notifikasi copyright asli.",
+      "Atribusi ke MSB untuk fork.",
+      "Software disediakan 'sebagaimana adanya'."
     ],
     "badges": {
       "open_source": "Open Source",
@@ -137,4 +138,3 @@
     }
   }
 }
-

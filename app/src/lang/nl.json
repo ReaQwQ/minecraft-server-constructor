@@ -1,135 +1,136 @@
 {
   "common": {
-    "latest": "Latest",
-    "load": "Load",
-    "save": "Save",
-    "version": "Version",
+    "latest": "Nieuwste",
+    "load": "Laden",
+    "save": "Opslaan",
+    "version": "Versie",
     "build": "Build",
-    "deploy": "Deploy",
-    "deploying": "Deploying...",
-    "success": "Success",
-    "error": "Error",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "loading": "Loading...",
-    "none": "None",
-    "view": "View",
-    "install": "INSTALL",
-    "page": "PAGE {{page}}",
-    "output_dir": "Output Directory",
-    "set_output_dir": "Set Output Dir"
+    "deploy": "Implementeren",
+    "deploying": "Implementeren...",
+    "success": "Succes",
+    "error": "Fout",
+    "cancel": "Annuleren",
+    "confirm": "Bevestigen",
+    "loading": "Laden...",
+    "none": "Geen",
+    "view": "Bekijken",
+    "install": "Installeren",
+    "installed": "Geïnstalleerd",
+    "page": "Pagina {{page}}",
+    "output_dir": "Uitvoerlocatie",
+    "set_output_dir": "Uitvoer instellen"
   },
   "sidebar": {
     "dashboard": "Dashboard",
-    "deploy": "Deploy",
-    "browse": "Output Browser",
+    "deploy": "Implementatie",
+    "browse": "Browser",
     "plugins": "Plugins",
-    "security": "Security",
-    "settings": "Settings",
-    "about": "About",
-    "theme": "Theme",
-    "language": "Language",
+    "security": "Beveiliging",
+    "settings": "Instellingen",
+    "about": "Over MSB",
+    "theme": "Thema",
+    "language": "Taal",
     "orchestrator": "Orchestrator"
   },
   "header": {
     "title": "MSB Console",
-    "import": "Load",
-    "export": "Save",
-    "output_dir_btn": "Set Output Dir",
-    "deploy_btn": "Deploy",
-    "deploying_btn": "Deploying..."
+    "import": "Importeren",
+    "export": "Exporteren",
+    "output_dir_btn": "Uitvoer instellen",
+    "deploy_btn": "Start implementatie",
+    "deploying_btn": "Bezig..."
   },
   "dashboard": {
-    "cpu_usage": "CPU Usage",
-    "cpu_sub": "System Global",
-    "memory_used": "Memory used",
-    "memory_total": "Total: {{total}}",
-    "deployments": "Deployments",
-    "deployments_sub": "in generated folder",
+    "cpu_usage": "CPU Gebruik",
+    "cpu_sub": "Systeem Totaal",
+    "memory_used": "Geheugen gebruikt",
+    "memory_total": "Totaal: {{total}} GB",
+    "deployments": "Implementaties",
+    "deployments_sub": "In uitvoermap",
     "realtime_monitoring": "Real-time Monitoring"
   },
   "deploy": {
-    "official_templates": "OFFICIAL TEMPLATES",
-    "templates": {
-      "lobby": "Lobby / Hub",
-      "survival": "Vanilla Survival",
-      "modded": "Modded Cluster"
-    },
-    "sections": {
-      "core": "1. Core Engine Settings",
-      "resource": "2. Resource & Network",
-      "orchestration": "3. Orchestration Features"
-    },
-    "engine": "Server Engine",
-    "engine_types": {
-      "purpur": "Purpur (Optimized)",
-      "paper": "PaperMC (Standard)",
-      "folia": "Folia (Multi-threaded)",
-      "arclight": "Arclight (Hybrid)",
-      "fabric": "Fabric (for Mods)",
-      "vanilla": "Vanilla (Official)",
-      "bds": "Bedrock (Official BDS)"
-    },
-    "proxy_type": "Proxy Type",
-    "proxy_types": {
-      "velocity": "Velocity (Recommended)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "None (Direct Connection)"
-    },
-    "proxy_ver": "Proxy Ver",
-    "proxy_build": "Proxy Build",
-    "memory_alloc": "Memory Allocation",
-    "memory_unit": "MB",
-    "protocol_range": "Protocol Range (ViaVersion)",
-    "multi_protocol": "MULTI",
-    "features": {
-      "jdk": { "label": "Auto JDK", "sub": "Optimal Java isolated installation" },
-      "bedrock": { "label": "Bedrock Support", "sub": "Geyser/Floodgate auto-link" },
-      "discord": { "label": "Discord Integration", "sub": "Auto-install DiscordSRV" },
-      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Strengthen proxy protection" },
-      "limbo": { "label": "Install NanoLimbo", "sub": "Lightweight waiting server" },
-      "mem": { "label": "Auto Memory Allocation", "sub": "Aikar's Flags optimization" },
-      "eula": { "label": "Accept EULA", "sub": "Agree to Minecraft EULA" }
-    },
+    "official_templates": "Officiële Sjablonen",
+    "core_engine_settings": "1. Server Engine",
+    "resource_network": "2. Resources & Netwerk",
+    "orchestration_features": "3. Functies",
+    "engine_label": "Server Engine",
+    "proxy_label": "Proxy Type",
+    "proxy_ver_label": "Proxy Ver",
+    "proxy_build_label": "Proxy Build",
+    "memory_label": "Geheugentoewijzing",
+    "protocols_label": "Protocollen (ViaVersion)",
+    "jdk_auto": "JDK Auto-Install",
+    "jdk_sub": "Geïsoleerde Java installatie",
+    "bedrock": "Bedrock Support",
+    "bedrock_sub": "Geyser/Floodgate integratie",
+    "discord": "Discord Integratie",
+    "discord_sub": "DiscordSRV installeren",
+    "sonar_sub": "Proxy bescherming",
+    "limbo_sub": "Lichte lobby server",
+    "memory_alloc": "Auto Geheugen",
+    "mem_sub": "Aikar's Flags optimalisatie",
+    "eula": "EULA accepteren",
+    "eula_sub": "Minecraft EULA accepteren",
     "alerts": {
-      "template_applied": "{{name}} template applied.",
-      "export_success": "Template exported.",
-      "import_success": "Template imported.",
-      "deploy_success": "Deployment successful!\nLocation: {{path}}",
-      "deploy_error": "Error: {{error}}",
-      "select_output": "Select Output Directory"
+      "template_applied": "{{name}} sjabloon toegepast.",
+      "export_success": "Sjabloon geëxporteerd.",
+      "import_success": "Sjabloon geïmporteerd.",
+      "deploy_success": "Implementatie voltooid!\nLocatie: {{path}}",
+      "deploy_error": "Fout: {{error}}",
+      "select_output": "Selecteer een uitvoermap"
     }
   },
   "browse": {
-    "title": "Output Browser",
-    "back_to_list": "Back to folder list",
-    "no_folders": "No generated servers yet.",
-    "created_at": "Created at"
+    "title": "Artifact Browser",
+    "back_to_list": "Terug naar lijst",
+    "no_folders": "Geen servers gevonden.",
+    "created_at": "Gemaakt op"
   },
   "plugins": {
-    "title": "Plugin Marketplace",
-    "subtitle": "Dynamically fetching from SpigotMC.",
-    "fetching": "Fetching..."
+    "title": "Plugin Marktplaats",
+    "subtitle": "Installeer 100.000+ plugins van SpigotMC.",
+    "fetching": "Ophalen...",
+    "install_success": "Plugin {{name}} succesvol geïnstalleerd."
+  },
+  "security": {
+    "title": "Beveiliging & Firewall",
+    "ssh_access": "SSH & Toegang",
+    "firewall": "Firewall",
+    "ssh_key": "SSH-key verplichten",
+    "root_login": "Root-login verbieden",
+    "password_auth": "Wachtwoord-auth uit",
+    "backend_block": "Blokkeer backend toegang",
+    "proxy_only": "Alleen proxy poorten open"
+  },
+  "settings": {
+    "title": "App Instellingen",
+    "auto_cleanup": "Automatische opschoning",
+    "auto_cleanup_sub": "Verwijder resten bij fout.",
+    "output_platform": "Doelplatform",
+    "output_platform_sub": "Selecteer doel-OS.",
+    "danger_zone": "Gevarenzone",
+    "danger_zone_sub": "Reset alle gegevens.",
+    "reset_btn": "Alles resetten"
   },
   "about": {
     "description": "Minecraft Server Constructor",
-    "version": "Version {{version}}",
+    "version": "Versie {{version}}",
     "build": "Build {{build}}",
-    "author_title": "Author",
+    "author_title": "Auteur",
     "author_sub": "Lead Architect & UI Designer",
-    "source_title": "Source",
+    "source_title": "Broncode",
     "source_repo": "GitHub Repository",
-    "built_with": "Built with Passion & Rust & React"
+    "built_with": "Gemaakt met Passie, Rust & React"
   },
   "license": {
-    "title": "License",
+    "title": "Licentie",
     "name": "MSB Attribution License (Modified MIT)",
-    "p1": "This software can be used, modified, and distributed freely, provided that the following conditions are met:",
+    "p1": "Gratis gebruik onder deze voorwaarden:",
     "items": [
-      "The original copyright notice and this permission notice must be included in all copies or substantial portions of the software.",
-      "If you distribute a fork (derivative work), you must include a clear and visible attribution to the 'Minecraft Server Constructor (MSB)' project and its original authors.",
-      "The software is provided 'as is', without warranty of any kind."
+      "Copyrightvermelding behouden.",
+      "Naamsvermelding MSB bij forks.",
+      "Software wordt geleverd 'as is'."
     ],
     "badges": {
       "open_source": "Open Source",
@@ -137,4 +138,3 @@
     }
   }
 }
-

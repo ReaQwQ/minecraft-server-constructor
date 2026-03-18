@@ -1,140 +1,140 @@
 {
   "common": {
-    "latest": "Latest",
-    "load": "Load",
-    "save": "Save",
-    "version": "Version",
-    "build": "Build",
-    "deploy": "Deploy",
-    "deploying": "Deploying...",
-    "success": "Success",
-    "error": "Error",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "loading": "Loading...",
-    "none": "None",
-    "view": "View",
-    "install": "INSTALL",
-    "page": "PAGE {{page}}",
-    "output_dir": "Output Directory",
-    "set_output_dir": "Set Output Dir"
+    "latest": "الأحدث",
+    "load": "تحميل",
+    "save": "حفظ",
+    "version": "الإصدار",
+    "build": "البناء",
+    "deploy": "نشر",
+    "deploying": "جاري النشر...",
+    "success": "نجاح",
+    "error": "خطأ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "loading": "جاري التحميل...",
+    "none": "لا يوجد",
+    "view": "عرض",
+    "install": "تثبيت",
+    "installed": "تم التثبيت",
+    "page": "صفحة {{page}}",
+    "output_dir": "مجلد المخرجات",
+    "set_output_dir": "تحديد مجلد المخرجات"
   },
   "sidebar": {
-    "dashboard": "Dashboard",
-    "deploy": "Deploy",
-    "browse": "Output Browser",
-    "plugins": "Plugins",
-    "security": "Security",
-    "settings": "Settings",
-    "about": "About",
-    "theme": "Theme",
-    "language": "Language",
-    "orchestrator": "Orchestrator"
+    "dashboard": "لوحة التحكم",
+    "deploy": "نشر",
+    "browse": "متصفح المخرجات",
+    "plugins": "الإضافات",
+    "security": "الأمان",
+    "settings": "الإعدادات",
+    "about": "حول MSB",
+    "theme": "المظهر",
+    "language": "اللغة",
+    "orchestrator": "المنسق"
   },
   "header": {
-    "title": "MSB Console",
-    "import": "Load",
-    "export": "Save",
-    "output_dir_btn": "Set Output Dir",
-    "deploy_btn": "Deploy",
-    "deploying_btn": "Deploying..."
+    "title": "وحدة تحكم MSB",
+    "import": "استيراد",
+    "export": "تصدير",
+    "output_dir_btn": "تحديد مجلد المخرجات",
+    "deploy_btn": "بدء النشر",
+    "deploying_btn": "جاري النشر..."
   },
   "dashboard": {
-    "cpu_usage": "CPU Usage",
-    "cpu_sub": "System Global",
-    "memory_used": "Memory used",
-    "memory_total": "Total: {{total}}",
-    "deployments": "Deployments",
-    "deployments_sub": "in generated folder",
-    "realtime_monitoring": "Real-time Monitoring"
+    "cpu_usage": "استخدام المعالج",
+    "cpu_sub": "النظام العام",
+    "memory_used": "الذاكرة المستخدمة",
+    "memory_total": "الإجمالي: {{total}} جيجابايت",
+    "deployments": "عمليات النشر",
+    "deployments_sub": "في المجلد المنشأ",
+    "realtime_monitoring": "مراقبة في الوقت الحقيقي"
   },
   "deploy": {
-    "official_templates": "OFFICIAL TEMPLATES",
-    "templates": {
-      "lobby": "Lobby / Hub",
-      "survival": "Vanilla Survival",
-      "modded": "Modded Cluster"
-    },
-    "sections": {
-      "core": "1. Core Engine Settings",
-      "resource": "2. Resource & Network",
-      "orchestration": "3. Orchestration Features"
-    },
-    "engine": "Server Engine",
-    "engine_types": {
-      "purpur": "Purpur (Optimized)",
-      "paper": "PaperMC (Standard)",
-      "folia": "Folia (Multi-threaded)",
-      "arclight": "Arclight (Hybrid)",
-      "fabric": "Fabric (for Mods)",
-      "vanilla": "Vanilla (Official)",
-      "bds": "Bedrock (Official BDS)"
-    },
-    "proxy_type": "Proxy Type",
-    "proxy_types": {
-      "velocity": "Velocity (Recommended)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "None (Direct Connection)"
-    },
-    "proxy_ver": "Proxy Ver",
-    "proxy_build": "Proxy Build",
-    "memory_alloc": "Memory Allocation",
-    "memory_unit": "MB",
-    "protocol_range": "Protocol Range (ViaVersion)",
-    "multi_protocol": "MULTI",
-    "features": {
-      "jdk": { "label": "Auto JDK", "sub": "Optimal Java isolated installation" },
-      "bedrock": { "label": "Bedrock Support", "sub": "Geyser/Floodgate auto-link" },
-      "discord": { "label": "Discord Integration", "sub": "Auto-install DiscordSRV" },
-      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Strengthen proxy protection" },
-      "limbo": { "label": "Install NanoLimbo", "sub": "Lightweight waiting server" },
-      "mem": { "label": "Auto Memory Allocation", "sub": "Aikar's Flags optimization" },
-      "eula": { "label": "Accept EULA", "sub": "Agree to Minecraft EULA" }
-    },
+    "official_templates": "القوالب الرسمية",
+    "core_engine_settings": "1. إعدادات المحرك الأساسي",
+    "resource_network": "2. الموارد والشبكة",
+    "orchestration_features": "3. ميزات التنسيق",
+    "engine_label": "محرك الخادم",
+    "proxy_label": "نوع البروكسي",
+    "proxy_ver_label": "إصدار البروكسي",
+    "proxy_build_label": "بناء البروكسي",
+    "memory_label": "تخصيص الذاكرة",
+    "protocols_label": "نطاق البروتوكول (ViaVersion)",
+    "jdk_auto": "تثبيت تلقائي لـ JDK",
+    "jdk_sub": "تثبيت معزول لنسخة جافا المثالية",
+    "bedrock": "دعم Bedrock",
+    "bedrock_sub": "تكامل تلقائي لـ Geyser/Floodgate",
+    "discord": "تكامل ديسكورد",
+    "discord_sub": "تثبيت تلقائي لـ DiscordSRV",
+    "sonar_sub": "تعزيز حماية البروكسي",
+    "limbo_sub": "خادم خفيف لغرفة الانتظار (Lobby)",
+    "memory_alloc": "تخصيص الذاكرة التلقائي",
+    "mem_sub": "تحسين إشارات Aikar",
+    "eula": "الموافقة على EULA",
+    "eula_sub": "الموافقة على Minecraft EULA",
     "alerts": {
-      "template_applied": "{{name}} template applied.",
-      "export_success": "Template exported.",
-      "import_success": "Template imported.",
-      "deploy_success": "Deployment successful!\nLocation: {{path}}",
-      "deploy_error": "Error: {{error}}",
-      "select_output": "Select Output Directory"
+      "template_applied": "تم تطبيق قالب {{name}}.",
+      "export_success": "تم تصدير القالب.",
+      "import_success": "تم استيراد القالب.",
+      "deploy_success": "تم النشر بنجاح!\nالموقع: {{path}}",
+      "deploy_error": "خطأ: {{error}}",
+      "select_output": "يرجى اختيار مجلد المخرجات"
     }
   },
   "browse": {
-    "title": "Output Browser",
-    "back_to_list": "Back to folder list",
-    "no_folders": "No generated servers yet.",
-    "created_at": "Created at"
+    "title": "متصفح المخرجات",
+    "back_to_list": "العودة إلى القائمة",
+    "no_folders": "لم يتم العثور على خوادم منشأة.",
+    "created_at": "تاريخ الإنشاء"
   },
   "plugins": {
-    "title": "Plugin Marketplace",
-    "subtitle": "Dynamically fetching from SpigotMC.",
-    "fetching": "Fetching..."
+    "title": "سوق الإضافات",
+    "subtitle": "قم بتثبيت أكثر من 100,000 إضافة مباشرة من SpigotMC إلى خادمك.",
+    "fetching": "جاري جلب الإضافات...",
+    "install_success": "تم تثبيت {{name}} بنجاح."
+  },
+  "security": {
+    "title": "الأمان وجدار الحماية",
+    "ssh_access": "SSH والتحكم في الوصول",
+    "firewall": "جدار الحماية",
+    "ssh_key": "فرض مصادقة مفتاح SSH",
+    "root_login": "تعطيل دخول الجذر (root)",
+    "password_auth": "تعطيل المصادقة بكلمة مرور",
+    "backend_block": "حظر الوصول المباشر للخلفية",
+    "proxy_only": "إغلاق جميع المنافذ باستثناء منافذ البروكسي"
+  },
+  "settings": {
+    "title": "إعدادات التطبيق",
+    "auto_cleanup": "تنظيف تلقائي للمجلد المنشأ",
+    "auto_cleanup_sub": "حذف المخلفات تلقائياً عند فشل النشر.",
+    "output_platform": "منصة المخرجات الافتراضية",
+    "output_platform_sub": "اختر نظام التشغيل المستهدف.",
+    "danger_zone": "منطقة الخطر",
+    "danger_zone_sub": "إعادة ضبط جميع البيانات.",
+    "reset_btn": "إعادة ضبط الكل"
   },
   "about": {
-    "description": "Minecraft Server Constructor",
-    "version": "Version {{version}}",
-    "build": "Build {{build}}",
-    "author_title": "Author",
-    "author_sub": "Lead Architect & UI Designer",
-    "source_title": "Source",
-    "source_repo": "GitHub Repository",
-    "built_with": "Built with Passion & Rust & React"
+    "description": "منشئ خادم ماينكرافت",
+    "version": "الإصدار {{version}}",
+    "build": "البناء {{build}}",
+    "author_title": "المؤلف",
+    "author_sub": "كبير المهندسين ومصمم واجهة المستخدم",
+    "source_title": "كود المصدر",
+    "source_repo": "مستودع GitHub",
+    "built_with": "بني بشغف بواسطة Rust و React"
   },
   "license": {
-    "title": "License",
-    "name": "MSB Attribution License (Modified MIT)",
-    "p1": "This software can be used, modified, and distributed freely, provided that the following conditions are met:",
+    "title": "الترخيص",
+    "name": "ترخيص MSB للمسؤولية (MIT معدل)",
+    "p1": "يمكن استخدام هذا البرنامج وتعديله وتوزيعه بحرية، بشرط استيفاء الشروط التالية:",
     "items": [
-      "The original copyright notice and this permission notice must be included in all copies or substantial portions of the software.",
-      "If you distribute a fork (derivative work), you must include a clear and visible attribution to the 'Minecraft Server Constructor (MSB)' project and its original authors.",
-      "The software is provided 'as is', without warranty of any kind."
+      "يجب تضمين إشعار حقوق النشر الأصلي وإشعار الإذن هذا في جميع النسخ أو الأجزاء الجوهرية من البرنامج.",
+      "إذا قمت بتوزيع نسخة مشتقة (fork)، فيجب عليك تضمين نسب واضح ومرئي لمشروع 'Minecraft Server Constructor (MSB)' ومؤلفيه الأصليين.",
+      "يتم تقديم البرنامج 'كما هو'، دون أي ضمان من أي نوع."
     ],
     "badges": {
-      "open_source": "Open Source",
-      "fork_friendly": "Fork Friendly"
+      "open_source": "مفتوح المصدر",
+      "fork_friendly": "صديق للتفرع"
     }
   }
 }
-

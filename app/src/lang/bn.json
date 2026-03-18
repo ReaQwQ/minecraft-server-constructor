@@ -1,140 +1,140 @@
 {
   "common": {
-    "latest": "Latest",
-    "load": "Load",
-    "save": "Save",
-    "version": "Version",
-    "build": "Build",
-    "deploy": "Deploy",
-    "deploying": "Deploying...",
-    "success": "Success",
-    "error": "Error",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "loading": "Loading...",
-    "none": "None",
-    "view": "View",
-    "install": "INSTALL",
-    "page": "PAGE {{page}}",
-    "output_dir": "Output Directory",
-    "set_output_dir": "Set Output Dir"
+    "latest": "সর্বশেষ",
+    "load": "লোড",
+    "save": "সেভ",
+    "version": "ভার্সন",
+    "build": "বিল্ড",
+    "deploy": "ডেপ্লয়",
+    "deploying": "ডেপ্লয় হচ্ছে...",
+    "success": "সফল",
+    "error": "ত্রুটি",
+    "cancel": "বাতিল",
+    "confirm": "নিশ্চিত করুন",
+    "loading": "লোড হচ্ছে...",
+    "none": "কিছুই নেই",
+    "view": "দেখুন",
+    "install": "ইনস্টল",
+    "installed": "ইনস্টল করা হয়েছে",
+    "page": "পৃষ্ঠা {{page}}",
+    "output_dir": "আউটপুট ডিরেক্টরি",
+    "set_output_dir": "আউটপুট ডিরেক্টরি সেট করুন"
   },
   "sidebar": {
-    "dashboard": "Dashboard",
-    "deploy": "Deploy",
-    "browse": "Output Browser",
-    "plugins": "Plugins",
-    "security": "Security",
-    "settings": "Settings",
-    "about": "About",
-    "theme": "Theme",
-    "language": "Language",
-    "orchestrator": "Orchestrator"
+    "dashboard": "ড্যাশবোর্ড",
+    "deploy": "ডেপ্লয়",
+    "browse": "আর্টিফ্যাক্ট ব্রাউজার",
+    "plugins": "প্লাগিন",
+    "security": "নিরাপত্তা",
+    "settings": "সেটিংস",
+    "about": "MSB সম্পর্কে",
+    "theme": "থিম",
+    "language": "ভাষা",
+    "orchestrator": "অরকেস্ট্রেটর"
   },
   "header": {
-    "title": "MSB Console",
-    "import": "Load",
-    "export": "Save",
-    "output_dir_btn": "Set Output Dir",
-    "deploy_btn": "Deploy",
-    "deploying_btn": "Deploying..."
+    "title": "MSB কনসোল",
+    "import": "ইম্পোর্ট",
+    "export": "এক্সপোর্ট",
+    "output_dir_btn": "আউটপুট ডিরেক্টরি সেট করুন",
+    "deploy_btn": "ডেপ্লয়মেন্ট শুরু করুন",
+    "deploying_btn": "ডেপ্লয় হচ্ছে..."
   },
   "dashboard": {
-    "cpu_usage": "CPU Usage",
-    "cpu_sub": "System Global",
-    "memory_used": "Memory used",
-    "memory_total": "Total: {{total}}",
-    "deployments": "Deployments",
-    "deployments_sub": "in generated folder",
-    "realtime_monitoring": "Real-time Monitoring"
+    "cpu_usage": "CPU ব্যবহার",
+    "cpu_sub": "সিস্টেম গ্লোবাল",
+    "memory_used": "ব্যবহৃত মেমরি",
+    "memory_total": "মোট: {{total}} GB",
+    "deployments": "ডেপ্লয়মেন্টসমূহ",
+    "deployments_sub": "তৈরি ফোল্ডারে",
+    "realtime_monitoring": "রিয়েল-টাইম মনিটরিং"
   },
   "deploy": {
-    "official_templates": "OFFICIAL TEMPLATES",
-    "templates": {
-      "lobby": "Lobby / Hub",
-      "survival": "Vanilla Survival",
-      "modded": "Modded Cluster"
-    },
-    "sections": {
-      "core": "1. Core Engine Settings",
-      "resource": "2. Resource & Network",
-      "orchestration": "3. Orchestration Features"
-    },
-    "engine": "Server Engine",
-    "engine_types": {
-      "purpur": "Purpur (Optimized)",
-      "paper": "PaperMC (Standard)",
-      "folia": "Folia (Multi-threaded)",
-      "arclight": "Arclight (Hybrid)",
-      "fabric": "Fabric (for Mods)",
-      "vanilla": "Vanilla (Official)",
-      "bds": "Bedrock (Official BDS)"
-    },
-    "proxy_type": "Proxy Type",
-    "proxy_types": {
-      "velocity": "Velocity (Recommended)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "None (Direct Connection)"
-    },
-    "proxy_ver": "Proxy Ver",
-    "proxy_build": "Proxy Build",
-    "memory_alloc": "Memory Allocation",
-    "memory_unit": "MB",
-    "protocol_range": "Protocol Range (ViaVersion)",
-    "multi_protocol": "MULTI",
-    "features": {
-      "jdk": { "label": "Auto JDK", "sub": "Optimal Java isolated installation" },
-      "bedrock": { "label": "Bedrock Support", "sub": "Geyser/Floodgate auto-link" },
-      "discord": { "label": "Discord Integration", "sub": "Auto-install DiscordSRV" },
-      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Strengthen proxy protection" },
-      "limbo": { "label": "Install NanoLimbo", "sub": "Lightweight waiting server" },
-      "mem": { "label": "Auto Memory Allocation", "sub": "Aikar's Flags optimization" },
-      "eula": { "label": "Accept EULA", "sub": "Agree to Minecraft EULA" }
-    },
+    "official_templates": "অফিসিয়াল টেমপ্লেট",
+    "core_engine_settings": "১. কোর ইঞ্জিন সেটিংস",
+    "resource_network": "২. রিসোর্স এবং নেটওয়ার্ক",
+    "orchestration_features": "৩. অরকেস্ট্রেশন ফিচারসমূহ",
+    "engine_label": "সার্ভার ইঞ্জিন",
+    "proxy_label": "প্রক্সি টাইপ",
+    "proxy_ver_label": "প্রক্সি ভার্সন",
+    "proxy_build_label": "প্রক্সি বিল্ড",
+    "memory_label": "মেমরি বরাদ্দ",
+    "protocols_label": "প্রোটোকল রেঞ্জ (ViaVersion)",
+    "jdk_auto": "JDK অটো-ইনস্টল",
+    "jdk_sub": "সেরা জাভার আইসোলেটেড ইনস্টল",
+    "bedrock": "বেডরক সাপোর্ট",
+    "bedrock_sub": "Geyser/Floodgate অটো-ইন্টিগ্রেশন",
+    "discord": "ডিসকর্ড ইন্টিগ্রেশন",
+    "discord_sub": "DiscordSRV অটো-ইনস্টল",
+    "sonar_sub": "প্রক্সি নিরাপত্তা বৃদ্ধি",
+    "limbo_sub": "লবির জন্য হালকা সার্ভার",
+    "memory_alloc": "অটো মেমরি বরাদ্দ",
+    "mem_sub": "Aikar's Flags অপ্টিমাইজেশন",
+    "eula": "EULA এর সাথে একমত",
+    "eula_sub": "Minecraft EULA এর সাথে একমত",
     "alerts": {
-      "template_applied": "{{name}} template applied.",
-      "export_success": "Template exported.",
-      "import_success": "Template imported.",
-      "deploy_success": "Deployment successful!\nLocation: {{path}}",
-      "deploy_error": "Error: {{error}}",
-      "select_output": "Select Output Directory"
+      "template_applied": "{{name}} টেমপ্লেট প্রয়োগ করা হয়েছে।",
+      "export_success": "টেমপ্লেট এক্সপোর্ট করা হয়েছে।",
+      "import_success": "টেমপ্লেট ইম্পোর্ট করা হয়েছে।",
+      "deploy_success": "ডেপ্লয়মেন্ট সম্পন্ন হয়েছে!\nঅবস্থান: {{path}}",
+      "deploy_error": "ত্রুটি: {{error}}",
+      "select_output": "দয়া করে একটি আউটপুট ডিরেক্টরি নির্বাচন করুন"
     }
   },
   "browse": {
-    "title": "Output Browser",
-    "back_to_list": "Back to folder list",
-    "no_folders": "No generated servers yet.",
-    "created_at": "Created at"
+    "title": "আর্টিফ্যাক্ট ব্রাউজার",
+    "back_to_list": "তালিকায় ফিরে যান",
+    "no_folders": "কোনো তৈরি সার্ভার পাওয়া যায়নি।",
+    "created_at": "তৈরির সময়"
   },
   "plugins": {
-    "title": "Plugin Marketplace",
-    "subtitle": "Dynamically fetching from SpigotMC.",
-    "fetching": "Fetching..."
+    "title": "প্লাগিন মার্কেটপ্লেস",
+    "subtitle": "সরাসরি SpigotMC থেকে ১,০০,০০০+ প্লাগিন আপনার সার্ভারে ইনস্টল করুন।",
+    "fetching": "ফেচ করা হচ্ছে...",
+    "install_success": "সফলভাবে {{name}} ইনস্টল করা হয়েছে।"
+  },
+  "security": {
+    "title": "নিরাপত্তা এবং ফায়ারওয়াল",
+    "ssh_access": "SSH এবং অ্যাক্সেস কন্ট্রোল",
+    "firewall": "ফায়ารওয়াল",
+    "ssh_key": "SSH কি অথেনটিকেশন বাধ্যতামূলক",
+    "root_login": "রুট লগইন নিষ্ক্রিয় করুন",
+    "password_auth": "পাসওয়ার্ড অথেনটিকেশন নিষ্ক্রিয় করুন",
+    "backend_block": "সরাসরি ব্যাকএন্ড অ্যাক্সেস ব্লক করুন",
+    "proxy_only": "প্রক্সি পোর্ট বাদে সব বন্ধ করুন"
+  },
+  "settings": {
+    "title": "অ্যাপ্লিকেশন সেটিংস",
+    "auto_cleanup": "তৈরি ফোল্ডার অটো-ক্লিনআপ",
+    "auto_cleanup_sub": "ডেপ্লয়মেন্ট ব্যর্থ হলে ধ্বংসাবশেষ অটো ডিলিট করুন।",
+    "output_platform": "ডিফল্ট আউটপুট প্ল্যাটফর্ম",
+    "output_platform_sub": "টার্গেট OS নির্বাচন করুন।",
+    "danger_zone": "বিপজ্জনক অঞ্চল",
+    "danger_zone_sub": "সব ডেটা রিসেট করুন।",
+    "reset_btn": "সব রিসেট করুন"
   },
   "about": {
-    "description": "Minecraft Server Constructor",
-    "version": "Version {{version}}",
-    "build": "Build {{build}}",
-    "author_title": "Author",
-    "author_sub": "Lead Architect & UI Designer",
-    "source_title": "Source",
-    "source_repo": "GitHub Repository",
+    "description": "মাইনক্রাফট সার্ভার কনস্ট্রাকটর",
+    "version": "ভার্সন {{version}}",
+    "build": "বিল্ড {{build}}",
+    "author_title": "লেখক",
+    "author_sub": "লিড আর্কিটেক্ট এবং UI ডিজাইনার",
+    "source_title": "সোর্স কোড",
+    "source_repo": "GitHub রিপোজিটরি",
     "built_with": "Built with Passion & Rust & React"
   },
   "license": {
-    "title": "License",
-    "name": "MSB Attribution License (Modified MIT)",
-    "p1": "This software can be used, modified, and distributed freely, provided that the following conditions are met:",
+    "title": "লাইসেন্স",
+    "name": "MSB অ্যাট্রিবিউশন লাইসেন্স (পরিবর্তিত MIT)",
+    "p1": "এই সফটওয়্যারটি অবাধে ব্যবহার, সংশোধন এবং বিতরণ করা যেতে পারে, যদি নিম্নলিখিত শর্তাবলী পূরণ করা হয়:",
     "items": [
-      "The original copyright notice and this permission notice must be included in all copies or substantial portions of the software.",
-      "If you distribute a fork (derivative work), you must include a clear and visible attribution to the 'Minecraft Server Constructor (MSB)' project and its original authors.",
-      "The software is provided 'as is', without warranty of any kind."
+      "আসল কপিরাইট নোটিশ এবং এই অনুমতি নোটিশ সফটওয়্যারের সমস্ত অনুলিপি বা উল্লেখযোগ্য অংশে অন্তর্ভুক্ত থাকতে হবে।",
+      "আপনি যদি কোনো ফোর্ক (ডেরিভেটিভ ওয়ার্ক) বিতরণ করেন, তবে আপনাকে 'Minecraft Server Constructor (MSB)' প্রকল্প এবং এর মূল লেখকদের প্রতি স্পষ্ট এবং দৃশ্যমান অ্যাট্রিবিউশন অন্তর্ভুক্ত করতে হবে।",
+      "সফটওয়্যারটি কোনো ধরনের ওয়ারেন্টি ছাড়াই 'যেমন আছে' প্রদান করা হয়েছে।"
     ],
     "badges": {
-      "open_source": "Open Source",
-      "fork_friendly": "Fork Friendly"
+      "open_source": "ওপেন সোর্স",
+      "fork_friendly": "ফোর্ক ফ্রেন্ডলি"
     }
   }
 }
-

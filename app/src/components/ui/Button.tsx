@@ -18,9 +18,10 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     
     const variants = {
       primary: "bg-blue-600 text-white shadow-[0_4px_14px_0_rgba(0,118,255,0.39)] hover:bg-blue-700",
-      secondary: "bg-gray-100 text-gray-900 dark:bg-zinc-800 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-zinc-700",
-      ghost: "bg-transparent hover:bg-gray-100 dark:hover:bg-zinc-800",
+      secondary: "bg-app/10 backdrop-blur-md text-app border border-app hover:bg-app/20",
+      ghost: "bg-transparent hover:bg-app/10 text-app",
       danger: "bg-red-500 text-white hover:bg-red-600 shadow-[0_4px_14px_0_rgba(255,0,0,0.39)]",
+      success: "bg-green-600 text-white shadow-[0_4px_14px_0_rgba(34,197,94,0.39)] hover:bg-green-700", // 💡 successを復活
     };
 
     const sizes = {

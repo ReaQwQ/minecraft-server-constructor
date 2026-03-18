@@ -1,135 +1,136 @@
 {
   "common": {
-    "latest": "Latest",
-    "load": "Load",
-    "save": "Save",
-    "version": "Version",
-    "build": "Build",
-    "deploy": "Deploy",
-    "deploying": "Deploying...",
-    "success": "Success",
-    "error": "Error",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "loading": "Loading...",
-    "none": "None",
-    "view": "View",
-    "install": "INSTALL",
-    "page": "PAGE {{page}}",
-    "output_dir": "Output Directory",
-    "set_output_dir": "Set Output Dir"
+    "latest": "En Yeni",
+    "load": "Yükle",
+    "save": "Kaydet",
+    "version": "Sürüm",
+    "build": "Derleme",
+    "deploy": "Dağıt",
+    "deploying": "Dağıtılıyor...",
+    "success": "Başarılı",
+    "error": "Hata",
+    "cancel": "İptal",
+    "confirm": "Onayla",
+    "loading": "Yükleniyor...",
+    "none": "Yok",
+    "view": "Görüntüle",
+    "install": "Kur",
+    "installed": "Kuruldu",
+    "page": "Sayfa {{page}}",
+    "output_dir": "Çıktı Dizini",
+    "set_output_dir": "Çıktıyı Ayarla"
   },
   "sidebar": {
-    "dashboard": "Dashboard",
-    "deploy": "Deploy",
-    "browse": "Output Browser",
-    "plugins": "Plugins",
-    "security": "Security",
-    "settings": "Settings",
-    "about": "About",
-    "theme": "Theme",
-    "language": "Language",
-    "orchestrator": "Orchestrator"
+    "dashboard": "Panel",
+    "deploy": "Dağıtım",
+    "browse": "Gezgin",
+    "plugins": "Eklentiler",
+    "security": "Güvenlik",
+    "settings": "Ayarlar",
+    "about": "Hakkında",
+    "theme": "Tema",
+    "language": "Dil",
+    "orchestrator": "Orkestratör"
   },
   "header": {
-    "title": "MSB Console",
-    "import": "Load",
-    "export": "Save",
-    "output_dir_btn": "Set Output Dir",
-    "deploy_btn": "Deploy",
-    "deploying_btn": "Deploying..."
+    "title": "MSB Konsol",
+    "import": "İçe Aktar",
+    "export": "Dışa Aktar",
+    "output_dir_btn": "Çıktıyı Ayarla",
+    "deploy_btn": "Dağıtımı Başlat",
+    "deploying_btn": "Dağıtılıyor..."
   },
   "dashboard": {
-    "cpu_usage": "CPU Usage",
-    "cpu_sub": "System Global",
-    "memory_used": "Memory used",
-    "memory_total": "Total: {{total}}",
-    "deployments": "Deployments",
-    "deployments_sub": "in generated folder",
-    "realtime_monitoring": "Real-time Monitoring"
+    "cpu_usage": "CPU Kullanımı",
+    "cpu_sub": "Sistem Genel",
+    "memory_used": "Kullanılan Bellek",
+    "memory_total": "Toplam: {{total}} GB",
+    "deployments": "Dağıtımlar",
+    "deployments_sub": "Oluşturulan klasörde",
+    "realtime_monitoring": "Gerçek Zamanlı İzleme"
   },
   "deploy": {
-    "official_templates": "OFFICIAL TEMPLATES",
-    "templates": {
-      "lobby": "Lobby / Hub",
-      "survival": "Vanilla Survival",
-      "modded": "Modded Cluster"
-    },
-    "sections": {
-      "core": "1. Core Engine Settings",
-      "resource": "2. Resource & Network",
-      "orchestration": "3. Orchestration Features"
-    },
-    "engine": "Server Engine",
-    "engine_types": {
-      "purpur": "Purpur (Optimized)",
-      "paper": "PaperMC (Standard)",
-      "folia": "Folia (Multi-threaded)",
-      "arclight": "Arclight (Hybrid)",
-      "fabric": "Fabric (for Mods)",
-      "vanilla": "Vanilla (Official)",
-      "bds": "Bedrock (Official BDS)"
-    },
-    "proxy_type": "Proxy Type",
-    "proxy_types": {
-      "velocity": "Velocity (Recommended)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "None (Direct Connection)"
-    },
-    "proxy_ver": "Proxy Ver",
-    "proxy_build": "Proxy Build",
-    "memory_alloc": "Memory Allocation",
-    "memory_unit": "MB",
-    "protocol_range": "Protocol Range (ViaVersion)",
-    "multi_protocol": "MULTI",
-    "features": {
-      "jdk": { "label": "Auto JDK", "sub": "Optimal Java isolated installation" },
-      "bedrock": { "label": "Bedrock Support", "sub": "Geyser/Floodgate auto-link" },
-      "discord": { "label": "Discord Integration", "sub": "Auto-install DiscordSRV" },
-      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Strengthen proxy protection" },
-      "limbo": { "label": "Install NanoLimbo", "sub": "Lightweight waiting server" },
-      "mem": { "label": "Auto Memory Allocation", "sub": "Aikar's Flags optimization" },
-      "eula": { "label": "Accept EULA", "sub": "Agree to Minecraft EULA" }
-    },
+    "official_templates": "Resmi Şablonlar",
+    "core_engine_settings": "1. Sunucu Motoru",
+    "resource_network": "2. Kaynaklar ve Ağ",
+    "orchestration_features": "3. Özellikler",
+    "engine_label": "Sunucu Motoru",
+    "proxy_label": "Proxy Türü",
+    "proxy_ver_label": "Proxy Sürümü",
+    "proxy_build_label": "Proxy Derlemesi",
+    "memory_label": "Bellek Ataması",
+    "protocols_label": "Protokoller (ViaVersion)",
+    "jdk_auto": "JDK Otomatik Kur",
+    "jdk_sub": "İzole Java kurulumu",
+    "bedrock": "Bedrock Desteği",
+    "bedrock_sub": "Geyser/Floodgate entegrasyonu",
+    "discord": "Discord Entegrasyonu",
+    "discord_sub": "DiscordSRV kur",
+    "sonar_sub": "Proxy koruması",
+    "limbo_sub": "Hafif lobi sunucusu",
+    "memory_alloc": "Otomatik Bellek",
+    "mem_sub": "Aikar's Flags optimizasyonu",
+    "eula": "EULA Kabul Et",
+    "eula_sub": "Minecraft EULA Kabul Et",
     "alerts": {
-      "template_applied": "{{name}} template applied.",
-      "export_success": "Template exported.",
-      "import_success": "Template imported.",
-      "deploy_success": "Deployment successful!\nLocation: {{path}}",
-      "deploy_error": "Error: {{error}}",
-      "select_output": "Select Output Directory"
+      "template_applied": "{{name}} şablonu uygulandı.",
+      "export_success": "Şablon dışa aktarıldı.",
+      "import_success": "Şablon içe aktarıldı.",
+      "deploy_success": "Dağıtım tamamlandı!\nKonum: {{path}}",
+      "deploy_error": "Hata: {{error}}",
+      "select_output": "Lütfen bir çıktı dizini seçin"
     }
   },
   "browse": {
-    "title": "Output Browser",
-    "back_to_list": "Back to folder list",
-    "no_folders": "No generated servers yet.",
-    "created_at": "Created at"
+    "title": "Artefakt Gezgini",
+    "back_to_list": "Listeye Dön",
+    "no_folders": "Sunucu bulunamadı.",
+    "created_at": "Oluşturulma"
   },
   "plugins": {
-    "title": "Plugin Marketplace",
-    "subtitle": "Dynamically fetching from SpigotMC.",
-    "fetching": "Fetching..."
+    "title": "Eklenti Pazarı",
+    "subtitle": "SpigotMC'den 100.000+ eklenti kurun.",
+    "fetching": "Alınıyor...",
+    "install_success": "{{name}} başarıyla kuruldu."
+  },
+  "security": {
+    "title": "Güvenlik ve Güvenlik Duvarı",
+    "ssh_access": "SSH ve Erişim",
+    "firewall": "Güvenlik Duvarı",
+    "ssh_key": "SSH Anahtarı Zorla",
+    "root_login": "Root girişini yasakla",
+    "password_auth": "Şifre girişini kapat",
+    "backend_block": "Backend erişimini engelle",
+    "proxy_only": "Proxy dışı portları kapat"
+  },
+  "settings": {
+    "title": "Uygulama Ayarları",
+    "auto_cleanup": "Otomatik Temizlik",
+    "auto_cleanup_sub": "Hata durumunda kalıntıları siler.",
+    "output_platform": "Çıktı Platformu",
+    "output_platform_sub": "Hedef işletim sistemini seçin.",
+    "danger_zone": "Tehlikeli Bölge",
+    "danger_zone_sub": "Tüm verileri sıfırla.",
+    "reset_btn": "Hepsini Sıfırla"
   },
   "about": {
     "description": "Minecraft Server Constructor",
-    "version": "Version {{version}}",
-    "build": "Build {{build}}",
-    "author_title": "Author",
+    "version": "Sürüm {{version}}",
+    "build": "Derleme {{build}}",
+    "author_title": "Yazar",
     "author_sub": "Lead Architect & UI Designer",
-    "source_title": "Source",
-    "source_repo": "GitHub Repository",
-    "built_with": "Built with Passion & Rust & React"
+    "source_title": "Kaynak Kod",
+    "source_repo": "GitHub Deposu",
+    "built_with": "Tutku, Rust ve React ile yapıldı"
   },
   "license": {
-    "title": "License",
+    "title": "Lisans",
     "name": "MSB Attribution License (Modified MIT)",
-    "p1": "This software can be used, modified, and distributed freely, provided that the following conditions are met:",
+    "p1": "Yazılım şu şartlarla serbestçe kullanılabilir:",
     "items": [
-      "The original copyright notice and this permission notice must be included in all copies or substantial portions of the software.",
-      "If you distribute a fork (derivative work), you must include a clear and visible attribution to the 'Minecraft Server Constructor (MSB)' project and its original authors.",
-      "The software is provided 'as is', without warranty of any kind."
+      "Orijinal telif hakkı uyarısını ekleyin.",
+      "Forklarda MSB'ye atıfta bulunun.",
+      "Yazılım 'olduğu gibi' sunulur."
     ],
     "badges": {
       "open_source": "Open Source",
@@ -137,4 +138,3 @@
     }
   }
 }
-

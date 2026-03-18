@@ -1,140 +1,140 @@
 {
   "common": {
-    "latest": "Latest",
-    "load": "Load",
-    "save": "Save",
-    "version": "Version",
-    "build": "Build",
-    "deploy": "Deploy",
-    "deploying": "Deploying...",
-    "success": "Success",
-    "error": "Error",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "loading": "Loading...",
-    "none": "None",
-    "view": "View",
-    "install": "INSTALL",
-    "page": "PAGE {{page}}",
-    "output_dir": "Output Directory",
-    "set_output_dir": "Set Output Dir"
+    "latest": "最新",
+    "load": "載入",
+    "save": "儲存",
+    "version": "版本",
+    "build": "構建",
+    "deploy": "部署",
+    "deploying": "正在部署...",
+    "success": "成功",
+    "error": "錯誤",
+    "cancel": "取消",
+    "confirm": "確定",
+    "loading": "正在載入...",
+    "none": "無",
+    "view": "查看",
+    "install": "安裝",
+    "installed": "已安裝",
+    "page": "第 {{page}} 頁",
+    "output_dir": "輸出目錄",
+    "set_output_dir": "設置輸出目錄"
   },
   "sidebar": {
-    "dashboard": "Dashboard",
-    "deploy": "Deploy",
-    "browse": "Output Browser",
-    "plugins": "Plugins",
-    "security": "Security",
-    "settings": "Settings",
-    "about": "About",
-    "theme": "Theme",
-    "language": "Language",
-    "orchestrator": "Orchestrator"
+    "dashboard": "儀表板",
+    "deploy": "部署",
+    "browse": "成果瀏覽器",
+    "plugins": "插件",
+    "security": "安全",
+    "settings": "設置",
+    "about": "關於本應用",
+    "theme": "主題",
+    "language": "語言",
+    "orchestrator": "編排器"
   },
   "header": {
-    "title": "MSB Console",
-    "import": "Load",
-    "export": "Save",
-    "output_dir_btn": "Set Output Dir",
-    "deploy_btn": "Deploy",
-    "deploying_btn": "Deploying..."
+    "title": "MSB 控制台",
+    "import": "匯入",
+    "export": "匯出",
+    "output_dir_btn": "設置輸出目錄",
+    "deploy_btn": "開始部署",
+    "deploying_btn": "正在部署..."
   },
   "dashboard": {
-    "cpu_usage": "CPU Usage",
-    "cpu_sub": "System Global",
-    "memory_used": "Memory used",
-    "memory_total": "Total: {{total}}",
-    "deployments": "Deployments",
-    "deployments_sub": "in generated folder",
-    "realtime_monitoring": "Real-time Monitoring"
+    "cpu_usage": "CPU 使用率",
+    "cpu_sub": "系統整體",
+    "memory_used": "已用記憶體",
+    "memory_total": "總計: {{total}} GB",
+    "deployments": "部署數量",
+    "deployments_sub": "在產生的資料夾中",
+    "realtime_monitoring": "即時監控"
   },
   "deploy": {
-    "official_templates": "OFFICIAL TEMPLATES",
-    "templates": {
-      "lobby": "Lobby / Hub",
-      "survival": "Vanilla Survival",
-      "modded": "Modded Cluster"
-    },
-    "sections": {
-      "core": "1. Core Engine Settings",
-      "resource": "2. Resource & Network",
-      "orchestration": "3. Orchestration Features"
-    },
-    "engine": "Server Engine",
-    "engine_types": {
-      "purpur": "Purpur (Optimized)",
-      "paper": "PaperMC (Standard)",
-      "folia": "Folia (Multi-threaded)",
-      "arclight": "Arclight (Hybrid)",
-      "fabric": "Fabric (for Mods)",
-      "vanilla": "Vanilla (Official)",
-      "bds": "Bedrock (Official BDS)"
-    },
-    "proxy_type": "Proxy Type",
-    "proxy_types": {
-      "velocity": "Velocity (Recommended)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "None (Direct Connection)"
-    },
-    "proxy_ver": "Proxy Ver",
-    "proxy_build": "Proxy Build",
-    "memory_alloc": "Memory Allocation",
-    "memory_unit": "MB",
-    "protocol_range": "Protocol Range (ViaVersion)",
-    "multi_protocol": "MULTI",
-    "features": {
-      "jdk": { "label": "Auto JDK", "sub": "Optimal Java isolated installation" },
-      "bedrock": { "label": "Bedrock Support", "sub": "Geyser/Floodgate auto-link" },
-      "discord": { "label": "Discord Integration", "sub": "Auto-install DiscordSRV" },
-      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Strengthen proxy protection" },
-      "limbo": { "label": "Install NanoLimbo", "sub": "Lightweight waiting server" },
-      "mem": { "label": "Auto Memory Allocation", "sub": "Aikar's Flags optimization" },
-      "eula": { "label": "Accept EULA", "sub": "Agree to Minecraft EULA" }
-    },
+    "official_templates": "官方模板",
+    "core_engine_settings": "1. 核心引擎設置",
+    "resource_network": "2. 資源與網路",
+    "orchestration_features": "3. 編排功能",
+    "engine_label": "伺服器引擎",
+    "proxy_label": "代理類型",
+    "proxy_ver_label": "代理版本",
+    "proxy_build_label": "代理構建",
+    "memory_label": "記憶體分配",
+    "protocols_label": "協議範圍 (ViaVersion)",
+    "jdk_auto": "JDK 自動安裝",
+    "jdk_sub": "隔離安裝最佳 Java 版本",
+    "bedrock": "基岩版支援",
+    "bedrock_sub": "Geyser/Floodgate 自動集成",
+    "discord": "Discord 集成",
+    "discord_sub": "自動安裝 DiscordSRV",
+    "sonar_sub": "增強代理保護",
+    "limbo_sub": "輕量級大廳伺服器",
+    "memory_alloc": "自動記憶體分配",
+    "mem_sub": "Aikar's Flags 優化",
+    "eula": "同意 EULA",
+    "eula_sub": "同意 Minecraft EULA",
     "alerts": {
-      "template_applied": "{{name}} template applied.",
-      "export_success": "Template exported.",
-      "import_success": "Template imported.",
-      "deploy_success": "Deployment successful!\nLocation: {{path}}",
-      "deploy_error": "Error: {{error}}",
-      "select_output": "Select Output Directory"
+      "template_applied": "已應用 {{name}} 模板。",
+      "export_success": "模板匯出成功。",
+      "import_success": "模板匯入成功。",
+      "deploy_success": "部署完成！\n路徑: {{path}}",
+      "deploy_error": "錯誤: {{error}}",
+      "select_output": "請選擇輸出目錄"
     }
   },
   "browse": {
-    "title": "Output Browser",
-    "back_to_list": "Back to folder list",
-    "no_folders": "No generated servers yet.",
-    "created_at": "Created at"
+    "title": "成果瀏覽器",
+    "back_to_list": "返回列表",
+    "no_folders": "未發現產生的伺服器。",
+    "created_at": "建立時間"
   },
   "plugins": {
-    "title": "Plugin Marketplace",
-    "subtitle": "Dynamically fetching from SpigotMC.",
-    "fetching": "Fetching..."
+    "title": "插件市場",
+    "subtitle": "直接從 SpigotMC 為您的伺服器安裝 100,000+ 插件。",
+    "fetching": "正在獲取...",
+    "install_success": "成功安裝 {{name}}。"
+  },
+  "security": {
+    "title": "安全與防火牆",
+    "ssh_access": "SSH 與存取控制",
+    "firewall": "防火牆",
+    "ssh_key": "強制 SSH 金鑰認證",
+    "root_login": "禁止 root 登入",
+    "password_auth": "停用密碼認證",
+    "backend_block": "阻止直接連線後端",
+    "proxy_only": "關閉除代理連接埠外的所有連接埠"
+  },
+  "settings": {
+    "title": "應用設置",
+    "auto_cleanup": "自動清理產生地資料夾",
+    "auto_cleanup_sub": "部署失敗時自動刪除殘餘檔案。",
+    "output_platform": "默認輸出平台",
+    "output_platform_sub": "選擇目標作業系統。",
+    "danger_zone": "危險區域",
+    "danger_zone_sub": "重置所有數據。",
+    "reset_btn": "全部重置"
   },
   "about": {
     "description": "Minecraft Server Constructor",
-    "version": "Version {{version}}",
-    "build": "Build {{build}}",
-    "author_title": "Author",
-    "author_sub": "Lead Architect & UI Designer",
-    "source_title": "Source",
-    "source_repo": "GitHub Repository",
-    "built_with": "Built with Passion & Rust & React"
+    "version": "版本 {{version}}",
+    "build": "構建 {{build}}",
+    "author_title": "作者",
+    "author_sub": "首席架構師與 UI 設計師",
+    "source_title": "原始碼",
+    "source_repo": "GitHub 倉庫",
+    "built_with": "用心、Rust 與 React 構建"
   },
   "license": {
-    "title": "License",
-    "name": "MSB Attribution License (Modified MIT)",
-    "p1": "This software can be used, modified, and distributed freely, provided that the following conditions are met:",
+    "title": "許可證",
+    "name": "MSB 歸屬許可證 (修改版 MIT)",
+    "p1": "在遵守以下條件的前提下，可以自由使用、修改和分發本軟體：",
     "items": [
-      "The original copyright notice and this permission notice must be included in all copies or substantial portions of the software.",
-      "If you distribute a fork (derivative work), you must include a clear and visible attribution to the 'Minecraft Server Constructor (MSB)' project and its original authors.",
-      "The software is provided 'as is', without warranty of any kind."
+      "軟體的所有副本或主要部分中必須包含原始版權聲明和本許可聲明。",
+      "如果您分發分叉（衍生作品），必須包含對「Minecraft Server Constructor (MSB)」專案及其原始作者的明確且可見的歸屬。",
+      "本軟體按「現狀」提供，不提供任何形式的保證。"
     ],
     "badges": {
-      "open_source": "Open Source",
-      "fork_friendly": "Fork Friendly"
+      "open_source": "開源",
+      "fork_friendly": "歡迎分叉"
     }
   }
 }
-

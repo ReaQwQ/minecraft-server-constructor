@@ -6,144 +6,101 @@
     "version": "版本",
     "build": "构建",
     "deploy": "部署",
-    "deploying": "部署中...",
+    "deploying": "正在部署...",
     "success": "成功",
     "error": "错误",
     "cancel": "取消",
-    "confirm": "确认",
-    "loading": "加载中...",
+    "confirm": "确定",
+    "loading": "正在加载...",
     "none": "无",
     "view": "查看",
     "install": "安装",
+    "installed": "已安装",
     "page": "第 {{page}} 页",
     "output_dir": "输出目录",
     "set_output_dir": "设置输出目录"
   },
   "sidebar": {
-    "dashboard": "控制面板",
+    "dashboard": "仪表板",
     "deploy": "部署",
-    "browse": "输出浏览器",
+    "browse": "成果浏览器",
     "plugins": "插件",
     "security": "安全",
     "settings": "设置",
-    "about": "关于",
+    "about": "关于本应用",
     "theme": "主题",
     "language": "语言",
     "orchestrator": "编排器"
   },
   "header": {
     "title": "MSB 控制台",
-    "import": "加载",
-    "export": "保存",
+    "import": "导入",
+    "export": "导出",
     "output_dir_btn": "设置输出目录",
-    "deploy_btn": "部署",
-    "deploying_btn": "部署中..."
+    "deploy_btn": "开始部署",
+    "deploying_btn": "正在部署..."
   },
   "dashboard": {
     "cpu_usage": "CPU 使用率",
-    "cpu_sub": "系统全局",
+    "cpu_sub": "系统整体",
     "memory_used": "已用内存",
-    "memory_total": "总计: {{total}}",
+    "memory_total": "总计: {{total}} GB",
     "deployments": "部署数量",
-    "deployments_sub": "位于生成的文件夹中",
+    "deployments_sub": "在生成的文件夹中",
     "realtime_monitoring": "实时监控"
   },
   "deploy": {
     "official_templates": "官方模板",
-    "templates": {
-      "lobby": "大厅 / 枢纽",
-      "survival": "原版生存",
-      "modded": "模组集群"
-    },
-    "sections": {
-      "core": "1. 核心引擎设置",
-      "resource": "2. 资源与网络",
-      "orchestration": "3. 编排功能"
-    },
-    "engine": "服务器引擎",
-    "engine_types": {
-      "purpur": "Purpur (优化版)",
-      "paper": "PaperMC (标准版)",
-      "folia": "Folia (多线程)",
-      "arclight": "Arclight (混合版)",
-      "fabric": "Fabric (模组专用)",
-      "vanilla": "Vanilla (官方原版)",
-      "bds": "Bedrock (官方 BDS)"
-    },
-    "proxy_type": "代理类型",
-    "proxy_types": {
-      "velocity": "Velocity (推荐)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "无 (直接连接)"
-    },
-    "proxy_ver": "代理版本",
-    "proxy_build": "代理构建",
-    "memory_alloc": "内存分配",
-    "memory_unit": "MB",
-    "protocol_range": "协议范围 (ViaVersion)",
-    "multi_protocol": "多协议",
-    "features": {
-      "jdk": { "label": "自动 JDK", "sub": "最佳 Java 隔离安装" },
-      "bedrock": { "label": "基岩版支持", "sub": "Geyser/Floodgate 自动链接" },
-      "discord": { "label": "Discord 集成", "sub": "自动安装 DiscordSRV" },
-      "sonar": { "label": "Sonar (防假人)", "sub": "增强代理保护" },
-      "limbo": { "label": "安装 NanoLimbo", "sub": "轻量级等待服务器" },
-      "mem": { "label": "自动内存分配", "sub": "Aikar's Flags 优化" },
-      "eula": { "label": "接受 EULA", "sub": "同意 Minecraft EULA" }
-    },
+    "core_engine_settings": "1. 核心引擎设置",
+    "resource_network": "2. 资源与网络",
+    "orchestration_features": "3. 编排功能",
+    "engine_label": "服务器引擎",
+    "proxy_label": "代理类型",
+    "proxy_ver_label": "代理版本",
+    "proxy_build_label": "代理构建",
+    "memory_label": "内存分配",
+    "protocols_label": "协议范围 (ViaVersion)",
+    "jdk_auto": "JDK 自动安装",
+    "jdk_sub": "隔离安装最佳 Java 版本",
+    "bedrock": "基岩版支持",
+    "bedrock_sub": "Geyser/Floodgate 自动集成",
+    "discord": "Discord 集成",
+    "discord_sub": "自动安装 DiscordSRV",
+    "sonar_sub": "增强代理保护",
+    "limbo_sub": "轻量级大厅服务器",
+    "memory_alloc": "自动内存分配",
+    "mem_sub": "Aikar's Flags 优化",
+    "eula": "同意 EULA",
+    "eula_sub": "同意 Minecraft EULA",
     "alerts": {
       "template_applied": "已应用 {{name}} 模板。",
-      "export_success": "模板已导出。",
-      "import_success": "模板已导入。",
-      "deploy_success": "部署成功！\n位置: {{path}}",
+      "export_success": "模板导出成功。",
+      "import_success": "模板导入成功。",
+      "deploy_success": "部署完成！\n路径: {{path}}",
       "deploy_error": "错误: {{error}}",
-      "select_output": "选择输出目录"
+      "select_output": "请选择输出目录"
     }
   },
   "browse": {
-    "title": "输出浏览器",
-    "back_to_list": "返回文件夹列表",
-    "no_folders": "尚未生成服务器。",
-    "created_at": "创建于"
+    "title": "成果浏览器",
+    "back_to_list": "返回列表",
+    "no_folders": "未发现生成的服务器。",
+    "created_at": "创建时间"
   },
   "plugins": {
     "title": "插件市场",
-    "subtitle": "从 SpigotMC 动态获取。",
-    "fetching": "正在获取..."
-  },
-  "about": {
-    "description": "Minecraft 服务器构造器 (MSB)",
-    "version": "版本 {{version}}",
-    "build": "构建 {{build}}",
-    "author_title": "作者",
-    "author_sub": "首席架构师与 UI 设计师",
-    "source_title": "源代码",
-    "source_repo": "GitHub 仓库",
-    "built_with": "由 Passion & Rust & React 驱动"
-  },
-  "license": {
-    "title": "许可协议",
-    "name": "MSB 署名许可 (修改版 MIT)",
-    "p1": "本软件可以免费使用、修改和分发，前提是必须满足以下条件：",
-    "items": [
-      "原始版权声明和本许可声明必须包含在软件的所有副本或主要部分中。",
-      "如果您分发分支版本（衍生作品），则必须包含对 'Minecraft Server Constructor (MSB)' 项目及其原始作者的清晰且可见的署名。",
-      "本软件按“原样”提供，不提供任何形式的保证。"
-    ],
-    "badges": {
-      "open_source": "开源",
-      "fork_friendly": "分支友好"
-    }
+    "subtitle": "直接从 SpigotMC 为您的服务器安装 100,000+ 插件。",
+    "fetching": "正在获取...",
+    "install_success": "成功安装 {{name}}。"
   },
   "security": {
     "title": "安全与防火墙",
     "ssh_access": "SSH 与访问控制",
     "firewall": "防火墙",
-    "ssh_key": "强制使用 SSH 密钥认证",
-    "root_login": "禁止 Root 登录",
+    "ssh_key": "强制 SSH 密钥认证",
+    "root_login": "禁止 root 登录",
     "password_auth": "禁用密码认证",
-    "backend_block": "阻止直接后端访问",
+    "backend_block": "阻止直接连接后端",
     "proxy_only": "关闭除代理端口外的所有端口"
   },
   "settings": {
@@ -155,5 +112,29 @@
     "danger_zone": "危险区域",
     "danger_zone_sub": "重置所有数据。",
     "reset_btn": "全部重置"
+  },
+  "about": {
+    "description": "Minecraft Server Constructor",
+    "version": "版本 {{version}}",
+    "build": "构建 {{build}}",
+    "author_title": "作者",
+    "author_sub": "首席架构师与 UI 设计师",
+    "source_title": "源代码",
+    "source_repo": "GitHub 仓库",
+    "built_with": "用心、Rust 与 React 构建"
+  },
+  "license": {
+    "title": "许可证",
+    "name": "MSB 归属许可证 (修改版 MIT)",
+    "p1": "在遵守以下条件的前提下，可以自由使用、修改和分发本软件：",
+    "items": [
+      "软件的所有副本或主要部分中必须包含原始版权声明和本许可声明。",
+      "如果您分发分叉（衍生作品），必须包含对“Minecraft Server Constructor (MSB)”项目及其原始作者的明确且可见的归属。",
+      "本软件按“原样”提供，不提供任何形式的保证。"
+    ],
+    "badges": {
+      "open_source": "开源",
+      "fork_friendly": "欢迎分叉"
+    }
   }
 }

@@ -1,140 +1,140 @@
 {
   "common": {
-    "latest": "Latest",
-    "load": "Load",
-    "save": "Save",
-    "version": "Version",
-    "build": "Build",
-    "deploy": "Deploy",
-    "deploying": "Deploying...",
-    "success": "Success",
-    "error": "Error",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "loading": "Loading...",
-    "none": "None",
-    "view": "View",
-    "install": "INSTALL",
-    "page": "PAGE {{page}}",
-    "output_dir": "Output Directory",
-    "set_output_dir": "Set Output Dir"
+    "latest": "ล่าสุด",
+    "load": "โหลด",
+    "save": "บันทึก",
+    "version": "เวอร์ชัน",
+    "build": "บิลด์",
+    "deploy": "ปรับใช้",
+    "deploying": "กำลังปรับใช้...",
+    "success": "สำเร็จ",
+    "error": "ข้อผิดพลาด",
+    "cancel": "ยกเลิก",
+    "confirm": "ยืนยัน",
+    "loading": "กำลังโหลด...",
+    "none": "ไม่มี",
+    "view": "ดู",
+    "install": "ติดตั้ง",
+    "installed": "ติดตั้งแล้ว",
+    "page": "หน้า {{page}}",
+    "output_dir": "ไดเรกทอรีเอาต์พุต",
+    "set_output_dir": "ตั้งค่าไดเรกทอรีเอาต์พุต"
   },
   "sidebar": {
-    "dashboard": "Dashboard",
-    "deploy": "Deploy",
-    "browse": "Output Browser",
-    "plugins": "Plugins",
-    "security": "Security",
-    "settings": "Settings",
-    "about": "About",
-    "theme": "Theme",
-    "language": "Language",
-    "orchestrator": "Orchestrator"
+    "dashboard": "แดชบอร์ด",
+    "deploy": "ปรับใช้",
+    "browse": "เบราว์เซอร์อาร์ติแฟกต์",
+    "plugins": "ปลั๊กอิน",
+    "security": "ความปลอดภัย",
+    "settings": "การตั้งค่า",
+    "about": "เกี่ยวกับ MSB",
+    "theme": "ธีม",
+    "language": "ภาษา",
+    "orchestrator": "ผู้ควบคุม"
   },
   "header": {
-    "title": "MSB Console",
-    "import": "Load",
-    "export": "Save",
-    "output_dir_btn": "Set Output Dir",
-    "deploy_btn": "Deploy",
-    "deploying_btn": "Deploying..."
+    "title": "MSB คอนโซล",
+    "import": "นำเข้า",
+    "export": "ส่งออก",
+    "output_dir_btn": "ตั้งค่าไดเรกทอรีเอาต์พุต",
+    "deploy_btn": "เริ่มการปรับใช้",
+    "deploying_btn": "กำลังปรับใช้..."
   },
   "dashboard": {
-    "cpu_usage": "CPU Usage",
-    "cpu_sub": "System Global",
-    "memory_used": "Memory used",
-    "memory_total": "Total: {{total}}",
-    "deployments": "Deployments",
-    "deployments_sub": "in generated folder",
-    "realtime_monitoring": "Real-time Monitoring"
+    "cpu_usage": "การใช้ CPU",
+    "cpu_sub": "ระบบโดยรวม",
+    "memory_used": "หน่วยความจำที่ใช้",
+    "memory_total": "รวม: {{total}} GB",
+    "deployments": "การปรับใช้",
+    "deployments_sub": "ในโฟลเดอร์ที่สร้างขึ้น",
+    "realtime_monitoring": "การตรวจสอบตามเวลาจริง"
   },
   "deploy": {
-    "official_templates": "OFFICIAL TEMPLATES",
-    "templates": {
-      "lobby": "Lobby / Hub",
-      "survival": "Vanilla Survival",
-      "modded": "Modded Cluster"
-    },
-    "sections": {
-      "core": "1. Core Engine Settings",
-      "resource": "2. Resource & Network",
-      "orchestration": "3. Orchestration Features"
-    },
-    "engine": "Server Engine",
-    "engine_types": {
-      "purpur": "Purpur (Optimized)",
-      "paper": "PaperMC (Standard)",
-      "folia": "Folia (Multi-threaded)",
-      "arclight": "Arclight (Hybrid)",
-      "fabric": "Fabric (for Mods)",
-      "vanilla": "Vanilla (Official)",
-      "bds": "Bedrock (Official BDS)"
-    },
-    "proxy_type": "Proxy Type",
-    "proxy_types": {
-      "velocity": "Velocity (Recommended)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "None (Direct Connection)"
-    },
-    "proxy_ver": "Proxy Ver",
-    "proxy_build": "Proxy Build",
-    "memory_alloc": "Memory Allocation",
-    "memory_unit": "MB",
-    "protocol_range": "Protocol Range (ViaVersion)",
-    "multi_protocol": "MULTI",
-    "features": {
-      "jdk": { "label": "Auto JDK", "sub": "Optimal Java isolated installation" },
-      "bedrock": { "label": "Bedrock Support", "sub": "Geyser/Floodgate auto-link" },
-      "discord": { "label": "Discord Integration", "sub": "Auto-install DiscordSRV" },
-      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Strengthen proxy protection" },
-      "limbo": { "label": "Install NanoLimbo", "sub": "Lightweight waiting server" },
-      "mem": { "label": "Auto Memory Allocation", "sub": "Aikar's Flags optimization" },
-      "eula": { "label": "Accept EULA", "sub": "Agree to Minecraft EULA" }
-    },
+    "official_templates": "เทมเพลตอย่างเป็นทางการ",
+    "core_engine_settings": "1. การตั้งค่าเอนจินหลัก",
+    "resource_network": "2. ทรัพยากรและเครือข่าย",
+    "orchestration_features": "3. คุณสมบัติการควบคุม",
+    "engine_label": "เอนจินเซิร์ฟเวอร์",
+    "proxy_label": "ประเภทพร็อกซี",
+    "proxy_ver_label": "เวอร์ชันพร็อกซี",
+    "proxy_build_label": "บิลด์พร็อกซี",
+    "memory_label": "การจัดสรรหน่วยความจำ",
+    "protocols_label": "ช่วงโปรโตคอล (ViaVersion)",
+    "jdk_auto": "ติดตั้ง JDK อัตโนมัติ",
+    "jdk_sub": "ติดตั้ง Java ที่เหมาะสมแบบแยกส่วน",
+    "bedrock": "รองรับ Bedrock",
+    "bedrock_sub": "การรวม Geyser/Floodgate อัตโนมัติ",
+    "discord": "การรวม Discord",
+    "discord_sub": "ติดตั้ง DiscordSRV อัตโนมัติ",
+    "sonar_sub": "เสริมการป้องกันพร็อกซี",
+    "limbo_sub": "เซิร์ฟเวอร์น้ำหนักเบาสำหรับล็อบบี้",
+    "memory_alloc": "จัดสรรหน่วยความจำอัตโนมัติ",
+    "mem_sub": "การปรับปรุง Aikar's Flags",
+    "eula": "ยอมรับ EULA",
+    "eula_sub": "ยอมรับ Minecraft EULA",
     "alerts": {
-      "template_applied": "{{name}} template applied.",
-      "export_success": "Template exported.",
-      "import_success": "Template imported.",
-      "deploy_success": "Deployment successful!\nLocation: {{path}}",
-      "deploy_error": "Error: {{error}}",
-      "select_output": "Select Output Directory"
+      "template_applied": "ใช้เทมเพลต {{name}} แล้ว",
+      "export_success": "ส่งออกเทมเพลตแล้ว",
+      "import_success": "นำเข้าเทมเพลตแล้ว",
+      "deploy_success": "การปรับใช้เสร็จสมบูรณ์!\nตำแหน่ง: {{path}}",
+      "deploy_error": "ข้อผิดพลาด: {{error}}",
+      "select_output": "โปรดเลือกไดเรกทอรีเอาต์พุต"
     }
   },
   "browse": {
-    "title": "Output Browser",
-    "back_to_list": "Back to folder list",
-    "no_folders": "No generated servers yet.",
-    "created_at": "Created at"
+    "title": "เบราว์เซอร์อาร์ติแฟกต์",
+    "back_to_list": "กลับไปที่รายการ",
+    "no_folders": "ไม่พบเซิร์ฟเวอร์ที่สร้างขึ้น",
+    "created_at": "สร้างเมื่อ"
   },
   "plugins": {
-    "title": "Plugin Marketplace",
-    "subtitle": "Dynamically fetching from SpigotMC.",
-    "fetching": "Fetching..."
+    "title": "ตลาดปลั๊กอิน",
+    "subtitle": "ติดตั้งปลั๊กอินมากกว่า 100,000 รายการจาก SpigotMC ไปยังเซิร์ฟเวอร์ของคุณโดยตรง",
+    "fetching": "กำลังดึงข้อมูล...",
+    "install_success": "ติดตั้ง {{name}} สำเร็จ"
+  },
+  "security": {
+    "title": "ความปลอดภัยและไฟร์วอลล์",
+    "ssh_access": "SSH และการควบคุมการเข้าถึง",
+    "firewall": "ไฟร์วอลล์",
+    "ssh_key": "บังคับใช้การรับรองความถูกต้องด้วยคีย์ SSH",
+    "root_login": "ปิดใช้งานการเข้าสู่ระบบ root",
+    "password_auth": "ปิดใช้งานการรับรองความถูกต้องด้วยรหัสผ่าน",
+    "backend_block": "บล็อกการเข้าถึงแบ็กเอนด์โดยตรง",
+    "proxy_only": "ปิดพอร์ตทั้งหมดยกเว้นพอร์ตพร็อกซี"
+  },
+  "settings": {
+    "title": "การตั้งค่าแอปพลิเคชัน",
+    "auto_cleanup": "ล้างโฟลเดอร์ที่สร้างขึ้นอัตโนมัติ",
+    "auto_cleanup_sub": "ลบเศษไฟล์โดยอัตโนมัติเมื่อการปรับใช้ล้มเหลว",
+    "output_platform": "แพลตฟอร์มเอาต์พุตเริ่มต้น",
+    "output_platform_sub": "เลือก OS เป้าหมาย",
+    "danger_zone": "เขตอันตราย",
+    "danger_zone_sub": "รีเซ็ตข้อมูลทั้งหมด",
+    "reset_btn": "รีเซ็ตทั้งหมด"
   },
   "about": {
     "description": "Minecraft Server Constructor",
-    "version": "Version {{version}}",
-    "build": "Build {{build}}",
-    "author_title": "Author",
-    "author_sub": "Lead Architect & UI Designer",
-    "source_title": "Source",
+    "version": "เวอร์ชัน {{version}}",
+    "build": "บิลด์ {{build}}",
+    "author_title": "ผู้เขียน",
+    "author_sub": "หัวหน้าสถาปนิกและผู้ออกแบบ UI",
+    "source_title": "ซอร์สโค้ด",
     "source_repo": "GitHub Repository",
     "built_with": "Built with Passion & Rust & React"
   },
   "license": {
-    "title": "License",
+    "title": "ใบอนุญาต",
     "name": "MSB Attribution License (Modified MIT)",
-    "p1": "This software can be used, modified, and distributed freely, provided that the following conditions are met:",
+    "p1": "ซอฟต์แวร์นี้สามารถใช้ แก้ไข และแจกจ่ายได้อย่างอิสระ โดยมีเงื่อนไขดังต่อไปนี้:",
     "items": [
-      "The original copyright notice and this permission notice must be included in all copies or substantial portions of the software.",
-      "If you distribute a fork (derivative work), you must include a clear and visible attribution to the 'Minecraft Server Constructor (MSB)' project and its original authors.",
-      "The software is provided 'as is', without warranty of any kind."
+      "ต้องระบุประกาศลิขสิทธิ์ต้นฉบับและประกาศการอนุญาตนี้ในสำเนาทั้งหมดหรือส่วนสำคัญของซอฟต์แวร์",
+      "หากคุณแจกจ่ายฟอร์ก (ผลงานต่อเนื่อง) คุณต้องระบุที่มาของโครงการ 'Minecraft Server Constructor (MSB)' และผู้เขียนต้นฉบับอย่างชัดเจน",
+      "ซอฟต์แวร์นี้จัดทำขึ้น 'ตามสภาพ' โดยไม่มีการรับประกันใดๆ"
     ],
     "badges": {
-      "open_source": "Open Source",
-      "fork_friendly": "Fork Friendly"
+      "open_source": "โอเพนซอร์ส",
+      "fork_friendly": "เป็นมิตรต่อการฟอร์ก"
     }
   }
 }
-

@@ -14,14 +14,15 @@
     "loading": "Cargando...",
     "none": "Ninguno",
     "view": "Ver",
-    "install": "INSTALAR",
-    "page": "PÁGINA {{page}}",
-    "output_dir": "Directorio de salida",
-    "set_output_dir": "Establecer dir. de salida"
+    "install": "Instalar",
+    "installed": "Instalado",
+    "page": "Página {{page}}",
+    "output_dir": "Directorio de Salida",
+    "set_output_dir": "Configurar Salida"
   },
   "sidebar": {
-    "dashboard": "Panel de control",
-    "deploy": "Desplegar",
+    "dashboard": "Panel",
+    "deploy": "Despliegue",
     "browse": "Explorador",
     "plugins": "Plugins",
     "security": "Seguridad",
@@ -33,127 +34,107 @@
   },
   "header": {
     "title": "Consola MSB",
-    "import": "Cargar",
-    "export": "Guardar",
-    "output_dir_btn": "Establecer dir. de salida",
-    "deploy_btn": "Desplegar",
+    "import": "Importar",
+    "export": "Exportar",
+    "output_dir_btn": "Configurar Salida",
+    "deploy_btn": "Iniciar Despliegue",
     "deploying_btn": "Desplegando..."
   },
   "dashboard": {
     "cpu_usage": "Uso de CPU",
     "cpu_sub": "Sistema Global",
-    "memory_used": "Memoria usada",
-    "memory_total": "Total: {{total}}",
+    "memory_used": "Memoria Usada",
+    "memory_total": "Total: {{total}} GB",
     "deployments": "Despliegues",
-    "deployments_sub": "en la carpeta generada",
-    "realtime_monitoring": "Monitoreo en tiempo real"
+    "deployments_sub": "En carpeta generada",
+    "realtime_monitoring": "Monitoreo en Tiempo Real"
   },
   "deploy": {
-    "official_templates": "PLANTILLAS OFICIALES",
-    "templates": {
-      "lobby": "Lobby / Hub",
-      "survival": "Supervivencia Vanilla",
-      "modded": "Cluster con Mods"
-    },
-    "sections": {
-      "core": "1. Ajustes del Motor",
-      "resource": "2. Recursos y Red",
-      "orchestration": "3. Funciones de Orquestación"
-    },
-    "engine": "Motor del Servidor",
-    "engine_types": {
-      "purpur": "Purpur (Optimizado)",
-      "paper": "PaperMC (Estándar)",
-      "folia": "Folia (Multihilo)",
-      "arclight": "Arclight (Híbrido)",
-      "fabric": "Fabric (para Mods)",
-      "vanilla": "Vanilla (Oficial)",
-      "bds": "Bedrock (BDS Oficial)"
-    },
-    "proxy_type": "Tipo de Proxy",
-    "proxy_types": {
-      "velocity": "Velocity (Recomendado)",
-      "waterfall": "Waterfall",
-      "bungeecord": "Bungeecord",
-      "none": "Ninguno (Conexión Directa)"
-    },
-    "proxy_ver": "Versión de Proxy",
-    "proxy_build": "Build de Proxy",
-    "memory_alloc": "Asignación de Memoria",
-    "memory_unit": "MB",
-    "protocol_range": "Rango de Protocolo (ViaVersion)",
-    "multi_protocol": "MULTI",
-    "features": {
-      "jdk": { "label": "JDK Automático", "sub": "Instalación de Java aislada óptima" },
-      "bedrock": { "label": "Soporte Bedrock", "sub": "Enlace auto Geyser/Floodgate" },
-      "discord": { "label": "Integración Discord", "sub": "Instalación auto DiscordSRV" },
-      "sonar": { "label": "Sonar (Anti-Bot)", "sub": "Reforzar protección del proxy" },
-      "limbo": { "label": "Instalar NanoLimbo", "sub": "Servidor de espera ligero" },
-      "mem": { "label": "Asignación de Memoria Auto", "sub": "Optimización Aikar's Flags" },
-      "eula": { "label": "Aceptar EULA", "sub": "Aceptar la EULA de Minecraft" }
-    },
+    "official_templates": "Plantillas Oficiales",
+    "core_engine_settings": "1. Motor del Servidor",
+    "resource_network": "2. Recursos y Red",
+    "orchestration_features": "3. Funciones",
+    "engine_label": "Motor del Servidor",
+    "proxy_label": "Tipo de Proxy",
+    "proxy_ver_label": "Versión Proxy",
+    "proxy_build_label": "Build Proxy",
+    "memory_label": "Asignación de Memoria",
+    "protocols_label": "Protocolos (ViaVersion)",
+    "jdk_auto": "Instalación Auto de JDK",
+    "jdk_sub": "Instalación aislada de Java",
+    "bedrock": "Soporte Bedrock",
+    "bedrock_sub": "Integración Geyser/Floodgate",
+    "discord": "Integración Discord",
+    "discord_sub": "Instalar DiscordSRV",
+    "sonar_sub": "Protección de Proxy",
+    "limbo_sub": "Servidor Lobby ligero",
+    "memory_alloc": "Memoria Automática",
+    "mem_sub": "Optimización Aikar's Flags",
+    "eula": "Aceptar EULA",
+    "eula_sub": "Aceptar EULA de Minecraft",
     "alerts": {
       "template_applied": "Plantilla {{name}} aplicada.",
       "export_success": "Plantilla exportada.",
       "import_success": "Plantilla importada.",
-      "deploy_success": "¡Despliegue exitoso!\nUbicación: {{path}}",
+      "deploy_success": "¡Despliegue completo!\nUbicación: {{path}}",
       "deploy_error": "Error: {{error}}",
-      "select_output": "Seleccionar directorio de salida"
+      "select_output": "Por favor seleccione un directorio de salida"
     }
   },
   "browse": {
-    "title": "Explorador de Salida",
+    "title": "Explorador de Artefactos",
     "back_to_list": "Volver a la lista",
-    "no_folders": "Aún no hay servidores generados.",
+    "no_folders": "No se encontraron servidores.",
     "created_at": "Creado el"
   },
   "plugins": {
     "title": "Mercado de Plugins",
-    "subtitle": "Obteniendo dinámicamente de SpigotMC.",
-    "fetching": "Obteniendo..."
+    "subtitle": "Instala más de 100,000 plugins desde SpigotMC.",
+    "fetching": "Obteniendo...",
+    "install_success": "Plugin {{name}} instalado con éxito."
+  },
+  "security": {
+    "title": "Seguridad y Firewall",
+    "ssh_access": "SSH y Control de Acceso",
+    "firewall": "Firewall",
+    "ssh_key": "Forzar Llave SSH",
+    "root_login": "Prohibir login root",
+    "password_auth": "Desactivar contraseñas",
+    "backend_block": "Bloquear acceso directo",
+    "proxy_only": "Cerrar puertos no proxy"
+  },
+  "settings": {
+    "title": "Ajustes de Aplicación",
+    "auto_cleanup": "Limpieza Automática",
+    "auto_cleanup_sub": "Borrar restos si el despliegue falla.",
+    "output_platform": "Plataforma de Salida",
+    "output_platform_sub": "Seleccione el SO objetivo.",
+    "danger_zone": "Zona de Peligro",
+    "danger_zone_sub": "Resetear todos los datos.",
+    "reset_btn": "Resetear Todo"
   },
   "about": {
     "description": "Minecraft Server Constructor",
     "version": "Versión {{version}}",
     "build": "Build {{build}}",
     "author_title": "Autor",
-    "author_sub": "Arquitecto Principal y Diseñador UI",
-    "source_title": "Fuente",
+    "author_sub": "Lead Architect & UI Designer",
+    "source_title": "Código Fuente",
     "source_repo": "Repositorio GitHub",
-    "built_with": "Construido con Pasión, Rust y React"
+    "built_with": "Hecho con Pasión, Rust y React"
   },
   "license": {
     "title": "Licencia",
-    "name": "Licencia de Atribución MSB (MIT Modificada)",
-    "p1": "Este software se puede utilizar, modificar y distribuir libremente, siempre que se cumplan las siguientes condiciones:",
+    "name": "MSB Attribution License (Modified MIT)",
+    "p1": "Este software puede usarse libremente bajo estas condiciones:",
     "items": [
-      "El aviso de derechos de autor original y este aviso de permiso deben incluirse en todas las copias o partes sustanciales del software.",
-      "Si distribuye un fork (obra derivada), debe incluir una atribución clara y visible al proyecto 'Minecraft Server Constructor (MSB)' y a sus autores originales.",
-      "El software se proporciona 'tal cual', sin garantía de ningún tipo."
+      "Incluir el aviso original de copyright.",
+      "Atribución clara al proyecto MSB en forks.",
+      "El software se ofrece «tal cual»."
     ],
     "badges": {
-      "open_source": "Código Abierto",
-      "fork_friendly": "Apto para Forks"
+      "open_source": "Open Source",
+      "fork_friendly": "Fork Friendly"
     }
-  },
-  "security": {
-    "title": "Seguridad y Cortafuegos",
-    "ssh_access": "SSH y Control de Acceso",
-    "firewall": "Cortafuegos",
-    "ssh_key": "Forzar autenticación por llave SSH",
-    "root_login": "Prohibir inicio de sesión como Root",
-    "password_auth": "Desactivar autenticación por contraseña",
-    "backend_block": "Bloquear acceso directo al backend",
-    "proxy_only": "Cerrar todo excepto los puertos del proxy"
-  },
-  "settings": {
-    "title": "Ajustes de la Aplicación",
-    "auto_cleanup": "Limpieza automática de la carpeta generada",
-    "auto_cleanup_sub": "Elimina automáticamente los restos en caso de fallo en el despliegue.",
-    "output_platform": "Plataforma de salida predeterminada",
-    "output_platform_sub": "Seleccione el SO de destino.",
-    "danger_zone": "Zona de Peligro",
-    "danger_zone_sub": "Restablecer todos los datos.",
-    "reset_btn": "Restablecer todo"
   }
 }

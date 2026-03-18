@@ -9,12 +9,16 @@
     "deploying": "デプロイ中...",
     "success": "成功",
     "error": "エラー",
-    "confirm": "確認",
-    "output_dir": "出力先",
+    "cancel": "キャンセル",
+    "confirm": "確定",
+    "loading": "読み込み中...",
+    "none": "なし",
+    "view": "表示",
     "install": "インストール",
     "installed": "導入済み",
-    "view": "表示",
-    "page": "ページ {{page}}"
+    "page": "{{page}} ページ",
+    "output_dir": "出力先ディレクトリ",
+    "set_output_dir": "出力先設定"
   },
   "sidebar": {
     "dashboard": "ダッシュボード",
@@ -24,9 +28,9 @@
     "security": "セキュリティ",
     "settings": "設定",
     "about": "このアプリについて",
-    "orchestrator": "オーケストレーター",
     "theme": "テーマ",
-    "language": "言語"
+    "language": "言語",
+    "orchestrator": "オーケストレーター"
   },
   "header": {
     "title": "MSB コンソール",
@@ -37,43 +41,71 @@
     "deploying_btn": "デプロイ中..."
   },
   "dashboard": {
-    "cpu_usage": "CPU 使用率",
+    "cpu_usage": "CPU使用率",
     "cpu_sub": "システム全体",
-    "mem_used": "使用メモリ",
+    "memory_used": "使用メモリ",
     "memory_total": "合計: {{total}} GB",
     "deployments": "デプロイ数",
-    "deployments_sub": "生成フォルダ内",
+    "deployments_sub": "生成済みフォルダ内",
     "realtime_monitoring": "リアルタイムモニタリング"
   },
   "deploy": {
+    "official_templates": "公式テンプレート",
+    "core_engine_settings": "1. コアエンジン設定",
+    "resource_network": "2. リソース ＆ ネットワーク",
+    "orchestration_features": "3. オーケストレーション機能",
+    "engine_label": "サーバーエンジン",
+    "proxy_label": "プロキシ種別",
+    "proxy_ver_label": "プロキシ Ver",
+    "proxy_build_label": "プロキシビルド",
+    "memory_label": "メモリ割り当て",
+    "protocols_label": "プロトコル範囲 (ViaVersion)",
+    "jdk_auto": "JDK自動導入",
+    "jdk_sub": "最適なJavaを隔離導入",
+    "bedrock": "統合版対応",
+    "bedrock_sub": "Geyser/Floodgate自動連携",
+    "discord": "Discord連携",
+    "discord_sub": "DiscordSRVを自動導入",
+    "sonar_sub": "プロキシ保護を強化",
+    "limbo_sub": "待機用軽量サーバー",
+    "memory_alloc": "メモリ自動配分",
+    "mem_sub": "Aikar's Flags最適化",
+    "eula": "EULAに同意",
+    "eula_sub": "Minecraft EULAに同意",
     "alerts": {
       "template_applied": "{{name}} テンプレートを適用しました。",
       "export_success": "テンプレートをエクスポートしました。",
       "import_success": "テンプレートをインポートしました。",
-      "select_output": "出力先フォルダを選択",
       "deploy_success": "デプロイ完了！\n場所: {{path}}",
-      "deploy_error": "エラー: {{error}}"
+      "deploy_error": "エラー: {{error}}",
+      "select_output": "出力先ディレクトリを選択してください"
     }
   },
+  "browse": {
+    "title": "成果物ブラウザ",
+    "back_to_list": "フォルダ一覧に戻る",
+    "no_folders": "生成済みのサーバーはありません。",
+    "created_at": "作成日時"
+  },
   "plugins": {
-    "title": "プラグイン・マーケット",
+    "title": "プラグインマーケットプレイス",
     "subtitle": "SpigotMC から 100,000 以上のプラグインを直接サーバーへ導入できます。",
-    "fetching": "プラグインを取得中...",
+    "fetching": "取得中...",
     "install_success": "{{name}} を正常にインストールしました。"
   },
   "security": {
     "title": "セキュリティ ＆ ファイアウォール",
     "ssh_access": "SSH ＆ アクセス制御",
+    "firewall": "ファイアウォール",
     "ssh_key": "SSH公開鍵認証を強制",
     "root_login": "rootログインを禁止",
     "password_auth": "パスワード認証を無効化",
-    "firewall": "ファイアウォール",
     "backend_block": "Backendへの直接接続を遮断",
     "proxy_only": "プロキシポート以外を閉鎖"
   },
   "settings": {
     "title": "アプリケーション設定",
-    "auto_cleanup": "フォルダの自動クリーンアップ",
+    "auto_cleanup": "生成フォルダの自動クリーンアップ",
     "auto_cleanup_sub": "デプロイ失敗時に残骸を自動で削除します。",
     "output_platform": "デフォルト出力プラットフォーム",
     "output_platform_sub": "標準のOSを選択します。",

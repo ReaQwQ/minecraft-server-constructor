@@ -9,24 +9,28 @@
     "deploying": "Deploying...",
     "success": "Success",
     "error": "Error",
+    "cancel": "Cancel",
     "confirm": "Confirm",
-    "output_dir": "Output Dir",
+    "loading": "Loading...",
+    "none": "None",
+    "view": "View",
     "install": "Install",
     "installed": "Installed",
-    "view": "View",
-    "page": "Page {{page}}"
+    "page": "Page {{page}}",
+    "output_dir": "Output Directory",
+    "set_output_dir": "Set Output Dir"
   },
   "sidebar": {
     "dashboard": "Dashboard",
     "deploy": "Deploy",
-    "browse": "Output Browser",
+    "browse": "Artifact Browser",
     "plugins": "Plugins",
     "security": "Security",
     "settings": "Settings",
     "about": "About MSB",
-    "orchestrator": "Orchestrator",
     "theme": "Theme",
-    "language": "Language"
+    "language": "Language",
+    "orchestrator": "Orchestrator"
   },
   "header": {
     "title": "MSB Console",
@@ -39,35 +43,63 @@
   "dashboard": {
     "cpu_usage": "CPU Usage",
     "cpu_sub": "System Global",
-    "mem_used": "Memory used",
+    "memory_used": "Memory Used",
     "memory_total": "Total: {{total}} GB",
     "deployments": "Deployments",
-    "deployments_sub": "in generated folder",
+    "deployments_sub": "In generated folder",
     "realtime_monitoring": "Real-time Monitoring"
   },
   "deploy": {
+    "official_templates": "Official Templates",
+    "core_engine_settings": "1. Core Engine Settings",
+    "resource_network": "2. Resource & Network",
+    "orchestration_features": "3. Orchestration Features",
+    "engine_label": "Server Engine",
+    "proxy_label": "Proxy Type",
+    "proxy_ver_label": "Proxy Ver",
+    "proxy_build_label": "Proxy Build",
+    "memory_label": "Memory Allocation",
+    "protocols_label": "Protocol Range (ViaVersion)",
+    "jdk_auto": "JDK Auto-Install",
+    "jdk_sub": "Isolated install of optimal Java",
+    "bedrock": "Bedrock Support",
+    "bedrock_sub": "Geyser/Floodgate auto-integration",
+    "discord": "Discord Integration",
+    "discord_sub": "Auto-install DiscordSRV",
+    "sonar_sub": "Enhance proxy protection",
+    "limbo_sub": "Lightweight server for lobby",
+    "memory_alloc": "Auto Memory Allocation",
+    "mem_sub": "Aikar's Flags optimization",
+    "eula": "Agree to EULA",
+    "eula_sub": "Agree to Minecraft EULA",
     "alerts": {
       "template_applied": "{{name}} template applied.",
       "export_success": "Template exported.",
       "import_success": "Template imported.",
-      "select_output": "Select output directory",
-      "deploy_success": "Deployment successful!\nLocation: {{path}}",
-      "deploy_error": "Error: {{error}}"
+      "deploy_success": "Deployment complete!\nLocation: {{path}}",
+      "deploy_error": "Error: {{error}}",
+      "select_output": "Please select an output directory"
     }
   },
+  "browse": {
+    "title": "Artifact Browser",
+    "back_to_list": "Back to List",
+    "no_folders": "No generated servers found.",
+    "created_at": "Created At"
+  },
   "plugins": {
-    "title": "Plugin Market",
+    "title": "Plugin Marketplace",
     "subtitle": "Directly install 100,000+ plugins from SpigotMC to your server.",
-    "fetching": "Fetching plugins...",
+    "fetching": "Fetching...",
     "install_success": "Successfully installed {{name}}."
   },
   "security": {
     "title": "Security & Firewall",
     "ssh_access": "SSH & Access Control",
+    "firewall": "Firewall",
     "ssh_key": "Enforce SSH Key Auth",
     "root_login": "Disable root login",
     "password_auth": "Disable password auth",
-    "firewall": "Firewall",
     "backend_block": "Block direct backend access",
     "proxy_only": "Close all but proxy ports"
   },

@@ -70,7 +70,7 @@ export const SelectContent = React.forwardRef<
       position={position}
       sideOffset={4}
       className={cn(
-        "relative z-50 min-w-[8rem] overflow-hidden rounded-2xl border border-app bg-card shadow-2xl",
+        "relative z-50 min-w-[8rem] overflow-hidden rounded-2xl border border-app glass shadow-2xl", // 💡 glassを追加
         position === "popper" &&
           "data-[side=bottom]:translate-y-1 data-[side=left]:-translate-x-1 data-[side=right]:translate-x-1 data-[side=top]:-translate-y-1",
         className
@@ -78,7 +78,7 @@ export const SelectContent = React.forwardRef<
       {...props}
     >
       <motion.div
-        className="bg-[var(--bg-card)] text-[var(--text-app)] flex flex-col"
+        className="text-[var(--text-app)] flex flex-col" // bg-[var(--bg-card)] を削除
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         exit={{ opacity: 0, scale: 0.95 }}
